@@ -1,0 +1,448 @@
+{
+	"head": {
+		"title": "Getting our feet wet - Holyheld",
+		"description": "Answers to frequently asked questions. Instructions and manuals for working with Holyheld products."
+	},
+	"body": {
+		"order": 1,
+		"title": "Getting our feet wet",
+		"description": "What is Holyheld? We have it all explained here.",
+		"image": {
+			"default": {
+				"1x": "/assets/images/water-faq@1x.png",
+				"2x": "/assets/images/water-faq@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/water-faq@1x.webp",
+				"2x": "/assets/images/water-faq@2x.webp"
+			},
+			"alt": ""
+		},
+		"smImage": {
+			"default": {
+				"1x": "/assets/images/water-faq-sm@1x.png",
+				"2x": "/assets/images/water-faq-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/water-faq-sm@1x.webp",
+				"2x": "/assets/images/water-faq-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewImage": {
+			"default": {
+				"1x": "/assets/images/water-faq-preview@1x.png",
+				"2x": "/assets/images/water-faq-preview@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/water-faq-preview@1x.webp",
+				"2x": "/assets/images/water-faq-preview@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewSmImage": {
+			"default": {
+				"1x": "/assets/images/water-faq-preview-sm@1x.png",
+				"2x": "/assets/images/water-faq-preview-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/water-faq-preview-sm@1x.webp",
+				"2x": "/assets/images/water-faq-preview-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"content": [
+			{
+				"type": "title",
+				"data": "Building a next-generation crypto bank"
+			},
+			{
+				"type": "text",
+				"data": "Our mission began a long time ago, but it wasn’t until the last couple of weeks where crypto space became a buffet full of vegetables, fruit, meat, and even sushi. Of course, we are living at the exciting times of crypto experiments and innovation, but at the same time, we believe that true innovation should benefit a wider audience of consumers. And that is why we are here. We are actively working on a mobile-first, DeFi-friendly financial services app. We are working on the service that will be the easiest way to trade, store, send, and earn interest on your crypto in a simple wallet with a debit card."
+			},
+			{
+				"type": "text",
+				"data": "Our goal is to create the smoothest crypto trading on decentralized exchanges, as well cheapest fiat off/on-ramp with our experimental tokenomics. In the long term, we imagine a neobank that will take the best of both worlds, from traditional finance — existing infrastructure, and DeFi — best profit-maximizing strategies and convenient crypto trading exposure."
+			},
+			{
+				"type": "title",
+				"data": "TL;DR"
+			},
+			{
+				"type": "text",
+				"data": "DeFi yield farming became more like yield chasing. While space is developing and innovating, it does look like we forgot about real-world problems. Farming distribution is a great concept, but it has to lead to solving real problems. So here is a summary of what we are doing differently:"
+			},
+			{
+				"type": "list",
+				"data": [
+					"We are actively building a product. It will be a simple wallet with a debit card where you can earn the highest available interest on crypto, and trade all 3000+ tokens in a curated and easy manner.",
+					"Complexity of usage is the number one reason that keeps users away from DeFi and staking economy, and we have to do something about it.",
+					"It is also important to mention that even though we have so much to do, our industry still has so much more room to grow. There are 25 million crypto users and 69 million neobank users. Can you imagine what will happen if we combine that potential in a DeFi industry that grows 1,785.2% CAGR?"
+				]
+			},
+			{
+				"type": "title",
+				"data": "Foundational DeFi industry problems"
+			},
+			{
+				"type": "text",
+				"data": "Before we get to the part describing our solution, we have but to mention the problems that led to the creation of our service. 2020 exposed a wider interest in alternative banking solutions, which allowed both traditional neobanks and alternative crypto solutions to show the biggest growth so far. At the same time, it also exposed foundational DeFi industry problems."
+			},
+			{
+				"type": "text",
+				"data": "We believe in the motto: “BUIDL”. That is why we only see an amazing opportunity to create Holyheld in all these problems. But let’s get back to the point. There are four main issues we see right now:"
+			},
+			{
+				"type": "list",
+				"data": [
+					"DeFi wallet services are mostly uni-protocol and have a lag. DeFi industry never sleeps. Every other day there is something new and experimental, and not all services can pick up with the speed of the market. Wallets do not support all DeFi protocols and focus on the $4B Ethereum market, excluding $12B Tezos, Algorand, EOS, Cosmos, and many other networks.",
+					"User experience is still terrible. Seed phrases to recover wallets, browser extensions to access user funds, and interfaces that are built for experienced crypto users only.",
+					"Consumer-oriented DeFi is still complicated. No visibility over all available investing and staking options. Complicated gas fees structure. Multi-step patterns to access passive income options.",
+					"Non-vetted and non-safe decentralized trading. DEXs generate more than $2.5B in monthly volume with no governance and control over quality and scam projects luring crypto traders."
+				]
+			},
+			{
+				"type": "title",
+				"data": "How does the next neobank look like?"
+			},
+			{
+				"type": "text",
+				"data": "Once we identified foundational issues, we began thinking about the actual description of the \"next neobank\". How does it look like? What features should it offer? And most important, what values does it bring? A good description comes to a financial service that aggregates all crypto protocols aggregating high-interest rates, providing full and safe access to decentralized trading, and supporting the growing demands of the new digital economy."
+			},
+			{
+				"type": "text",
+				"data": "But what does it mean in practice? Let's have a closer look at the current landscape. MakerDAO being an early Northern Light to all DeFi community carved the path to a fair and innovative technological product structure. However, it is still tiny comparing to the existing neobank incumbents. Ironically, once neobanks were in the MakerDAO shoes."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content1@1x.png",
+						"2x": "/assets/images/content1@2x.png"
+					},
+					"webp": {
+						"1x": "/assets/images/content1@1x.webp",
+						"2x": "/assets/images/content1@2x.webp"
+					},
+					"alt": "",
+					"description": "Note: ($) refer to market cap average as of September 2020. Source: crunchbase.com and defimarketcap.io"
+				}
+			},
+			{
+				"type": "text",
+				"data": "So how does the \"next neobank\" look like? Well, it is still a very open question, but we firmly believe in these two statements:"
+			},
+			{
+				"type": "list",
+				"data": [
+					"Instead of equity in any single company, investors and developers have a stake in the underlying crypto asset of the network.",
+					"Instead of proprietary software, underlying protocol wallet logic is open source and non-custodial, while the application layer is supported by the company."
+				]
+			},
+			{
+				"type": "text",
+				"data": "But how big is the industry we all live and breathe? Wait, let's rephrase that: how massive is the opportunity for further growth? How many people can a DeFi neobank unite around innovative technology and exceptional customer service?"
+			},
+			{
+				"type": "title",
+				"data": "Current market size"
+			},
+			{
+				"type": "text",
+				"data": "It is obvious to everyone that the DeFi market is experiencing tremendous growth right now. But to outgrow existing services, a mainstream DeFi neobank should adopt and facilitate the staking economy market; support the evolution and growth of decentralized exchanges; also utilize traditional neobanks market growth."
+			},
+			{
+				"type": "text",
+				"data": "Let's take a close look at the “traditional” neobanks growth. Well, they've shown a steady growth of 18.21% CAGR in the past three years. With a total accumulate value of $35.5B."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content2@1x.png",
+						"2x": "/assets/images/content2@2x.png"
+					},
+					"webp": {
+						"1x": "/assets/images/content2@1x.webp",
+						"2x": "/assets/images/content2@2x.webp"
+					},
+					"alt": ""
+				}
+			},
+			{
+				"type": "text",
+				"data": "At the same time, staking economy has made an astonishing leap with a 198.21% CAGR in the past 3 years, reaching a staggering $17.6B in value."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content3@1x.png",
+						"2x": "/assets/images/content3@2x.png"
+					},
+					"webp": {
+						"1x": "/assets/images/content3@1x.webp",
+						"2x": "/assets/images/content3@2x.webp"
+					},
+					"alt": ""
+				}
+			},
+			{
+				"type": "text",
+				"data": "What makes us wonder is why the staking economy is so disconnected from the DeFi Market? Why did the DeFi industry is showing the biggest growth by far right now? Are we using the right metrics? If so, how big the potential is?. Well, let’s start with saying that DeFi Market cap growth that is represented by TVL (Total Value Locked), which isn't the best metric to measure, to be honest. Never the less, it showed a mind-blowing 1,785.2% CAGR in the past three years, and currently stands at $6.7B mark."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content4@1x.png",
+						"2x": "/assets/images/content4@2x.png"
+					},
+					"webp": {
+						"1x": "/assets/images/content4@1x.webp",
+						"2x": "/assets/images/content4@2x.webp"
+					},
+					"alt": ""
+				}
+			},
+			{
+				"type": "text",
+				"data": "A long way to go, right? But that only this journey even more exciting. "
+			},
+			{
+				"type": "title",
+				"data": "One app that manages all digital economy"
+			},
+			{
+				"type": "text",
+				"data": "We are building a financial service that will understand your digital needs. An app that will recognize you by face or by fingerprint. The app with a simple interface, portfolio, asset marketplace, and asset management."
+			},
+			{
+				"type": "text",
+				"data": "We value transparency and want to match the highest standards of our industry. We also know that in our trustless industry, DeFi buffet projects have asked for way too much trust. And then they broke it. It’s not only the 🍣 case we are talking about the whole industry. That is why it is crucial to say that things may change when building an innovative regulated financial service. Features may work differently from we describe them here and now. Some features may be delayed, or may not even get to the production point. We may get into regulatory or technical hurdles. We may have to adjust our plan, just because so many things are changing every day in crypto land. But all that can be resolved if the community and creators work together. The community becomes the driving force and helps navigate in the right direction. It is never a one-way street, and we want to build a service where communication is the key. So here is what we are working on:"
+			},
+			{
+				"type": "list",
+				"data": [
+					"<b>iOS and Android apps</b>. It is a mobile-first DeFi neobank, right? Obviously, Sherlock.",
+					"<b>The support of all staking protocols</b>. We are working on finally connecting the bridge and allowing access to the entire staking economy.",
+					"<b>Trading with 3000+ crypto assets</b> with unique features for decentralized trading like smart price notifications and market positions.",
+					"<b>Automatic highest yield routing and insurance</b>. The service will automatically reroute users' funds to achieve the highest yield available on the market, with in-built insurance, where possible.",
+					"<b>No fees</b>. Unique no maintenance, trading, or card fees with the integrated experimental HOLY tokenomics.",
+					"<b>Mastercard debit card</b>. Both physical and virtual cards, where the virtual card will be available immediately upon account opening.",
+					"<b>Live in-app support</b>. Finally, a DeFi service that cares for customers. One may argue that DeFi is not suitable for everyone at this point. But DeFi must be available to everyone, and an important part of it should great customer support."
+				]
+			},
+			{
+				"type": "text",
+				"data": "We are designing our app to be the most convenient and easy financial service in which it is possible to implement the most adaptive and scalable DeFi mechanics."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content5@1x.png",
+						"2x": "/assets/images/content5@2x.png"
+					},
+					"webp": {
+						"1x": "/assets/images/content5@1x.webp",
+						"2x": "/assets/images/content5@2x.webp"
+					},
+					"alt": ""
+				}
+			},
+			{
+				"type": "text",
+				"data": "Our goal is to make the internet economy easy and available to everyone. Many projects are trying to build the next neobank for Generation Z: deep liquidity customizations on DEXs, complex staking mechanisms, and professional analytics, while forgetting about foundational principles."
+			},
+			{
+				"type": "text",
+				"data": "We will abstract blockchain complexity so regular users can finally get great financial service with all DeFi benefits. We will aggregate all digital assets, have easy on and off fiat off-ramp, provide the best in class decentralized trading experience to create the ultimate financial app."
+			},
+			{
+				"type": "title",
+				"data": "Who is going to build all of that?"
+			},
+			{
+				"type": "text",
+				"data": "Glad you’ve asked this. So who is going to build that? Holyheld is a team where Engineering Ph.D. is combined with experienced founder execution. Anton Mozgovoy & Anton Zagorodnikov have been working together on decentralized finance since 2017. Now we are working together again, and we are building Holyheld."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content6@1x.jpg",
+						"2x": "/assets/images/content6@2x.jpg"
+					},
+					"webp": {
+						"1x": "/assets/images/content6@1x.webp",
+						"2x": "/assets/images/content6@2x.webp"
+					},
+					"alt": ""
+				}
+			},
+			{
+				"type": "text",
+				"data": "Being on the edge of both fintech and DeFi worlds is challenging. There are so many things that have to be done, and even more unknowns to be solved. But, we are confident in our mission and vision, and we believe that we are the right team to build Holyheld. For instance:"
+			},
+			{
+				"type": "list",
+				"data": [
+					"Anton Zagorodnikov has 15+ years of experience in IT.",
+					"Anton Zagorodnikov won the Microsoft programming contest.",
+					"Anton Mozgovoy is a serial entrepreneur with successful exits under the belt.",
+					"Anton Mozgovoy is selected as a tech leader of the year by TechXLR8.",
+					"Anton Mozgovoy is a Blockchain Advisor at WeWork Fintech Labs."
+				]
+			},
+			{
+				"type": "text",
+				"data": "One of the absolutely amazing opportunities that crypto industry is offering builders — is an opportunity to be anonymous. As engineers we’d rather be judged by what we've built, than trying to measure social influence. There are successful pseudo anonymous teams that are delivering, like Thorchain, for example. However, at the same time, we understand that right now our industry needs accountability and transparency. That is why it is never about “us and them”, but always about “we”. We are constantly looking for great engineers, designers, and product managers. If you are reading this and you want to build better finance together with us, <a class=\"link\" href=\"mailto:hello@holyheld.com\">drop us a message</a>. We would love to talk to you."
+			},
+			{
+				"type": "title",
+				"data": "Where's the Money, Lebowski?"
+			},
+			{
+				"type": "text",
+				"data": "Fintech is an industry with tiny margins. To be honest most neobanks are seriously net negative and are surviving only because of the investors' money. Why? Because there is no way of getting rid of the fees. Someone still has to pay for the fiat off/on-ramp. Someone has to pay for Uniswap fees, and someone still has to pay maintenance fees on your debit card. So how can you create a service with no fees and generate revenue?"
+			},
+			{
+				"type": "text",
+				"data": "There are multiple options. For instance, there are DeFi wallets that instead of charging you for gas fees, charge a percentage of the slippage on every transaction you make. It can be as high as 10%. So on larger transaction amounts, these services can charge you ten times more of what it cost you to trade manually on Uniswap."
+			},
+			{
+				"type": "text",
+				"data": "Another option is — a custodial approach. This way, a service doesn’t need to have every transaction on L1 (layer 1), and at the same time, they can still charge you service fees for the effort they make."
+			},
+			{
+				"type": "text",
+				"data": "But what if there was a third approach? What if we could create a service with a fair revenue model. What if there was a financial service that would only generate revenue when the users would? Well, that is exactly what we are trying to build — a fair revenue model in a digital economy age."
+			},
+			{
+				"type": "text",
+				"data": "Holyheld will make money by collecting one-tenth of the interest that is generated by users' deposits. Holyheld will generate income only when users will do. Half of all earnings go into the Yield Treasury, and the other half is used as a Holyheld fee."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content7@1x.png",
+						"2x": "/assets/images/content7@2x.png"
+					},
+					"webp": {
+						"1x": "/assets/images/content7@1x.webp",
+						"2x": "/assets/images/content7@2x.webp"
+					},
+					"alt": ""
+				}
+			},
+			{
+				"type": "list",
+				"data": [
+					"Yield Treasury consists of native underlying tokens generated as staking rewards from user deposited funds.",
+					"HOLY token can be exchanged and burned for the equivalent of the allocated share of the Yield Treasury to cover the app fees. This is a one-time event.",
+					"HOLY is a deflation type of a token, meaning that the Treasury Box’s allocated share will continue to grow over time as users use the service."
+				]
+			},
+			{
+				"type": "text",
+				"data": "Over time this approach will allow us to create a self-sufficient financial company. Of course, this is a very experimental approach, and there are numerous critical factors to consider. And in fact, we did it. We’ve modeled out our unit economics very thoroughly. From normalized CAC (Customer Acquisition Costs) to LTV (Life-Time Value of a customer) and average median user deposit, from card Maintainance fees to fluctuation of APY (Annual Percentage Yield) on user deposits. Here is just a glimpse at the two-year modeled run, considering that average APY for our users ranges at 10.4% +-4%. Please note, this modeling shows only a theoretical possibility. It doesn’t indicate exact future performance."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content8@1x.png",
+						"2x": "/assets/images/content8@2x.png"
+					},
+					"webp": {
+						"1x": "/assets/images/content8@1x.webp",
+						"2x": "/assets/images/content8@2x.webp"
+					},
+					"alt": ""
+				}
+			},
+			{
+				"type": "text",
+				"data": "Never the less, in the worst-case scenario, looking at this chart, we can see that the company may become profitable in just under 500 days, leaving it with an annual net-profit close to $600K in year two. However, considering favorable current market conditions, the company may be able to break-even in under a staggering 100 days mark and achieve $4.2M in profit by the end of year two. Once again, this is not revenue — this is operating profit."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content9@1x.png",
+						"2x": "/assets/images/content9@2x.png"
+					},
+					"webp": {
+						"1x": "/assets/images/content9@1x.webp",
+						"2x": "/assets/images/content9@2x.webp"
+					},
+					"alt": ""
+				}
+			},
+			{
+				"type": "text",
+				"data": "We mentioned earlier that neobanks run on significantly thin margin rates; this is the exact reason why we apply a very calculated approach to running this company. Also, our data-driver approach gives an understanding of how many things should be done and should work as expected to achieve these numbers. It also means that nobody can guarantee performance until the real data comes in. And even then, it may take some time to approve the hypothesis. However, this chart also shows us that there is a possibility of building a different company and follow our innovative approach to decentralized banking."
+			},
+			{
+				"type": "title",
+				"data": "Great plan, Walter"
+			},
+			{
+				"type": "text",
+				"data": "That's a great plan, Walter. If we understand it all correctly, it's a Swiss watch. Well, okay, let's rewind to the section where we mentioned the unique experimental tokenomics part. We are splitting the Holyheld launch into two phases."
+			},
+			{
+				"type": "text",
+				"data": "Firstly, launching a pre-launch phase, which will focus on the service-driven initial token distribution. More details on the token launch process and economics details are covered in our <a class=\"link\" href=\"/promo/farming_holy/\">tokenomics article</a>. In short, HOLY is a special kind of Ethereum token with unique incentives. HOLY will be launched via a liquidity mining program supporting a vast range of DeFi tokens to connect different communities and facilitate a fair launch. The main objectives are to accumulate solid liquidity to facilitate smooth customer onboarding, and also to accumulate yield via a yield-accruing pool that will only be used during the post-launch phase to cover card and trading fees. It is also important to mention that at this stage, the token will be worthless, and must not be considered as an investment opportunity. A pre-launch phase is an experimental combination of a referral mechanism, combined with an incentive program for early adopters and wider DeFi community."
+			},
+			{
+				"type": "text",
+				"data": "The most exciting part starts in the post-launch phase. We will close our liquidity mining program, and the only way to earn HOLY token will be by using the app. To be more precise, we will launch our trade-mining program that will activate incentives for users to provide capital and to actively enjoy decentralized trading while using earned HOLY rewards to cover gas and transactional costs."
+			},
+			{
+				"type": "text",
+				"data": "But what makes HOLY so special? Generated yield by staked capital will be used to buyback and burn HOLY tokens, which creates a fair revenue model in a digital economy age. Once again, Holyheld will only earn when our users will. Moreover, 50% or half of the generated revenue is used to cover the fees and creates a seamless and joyful user experience. What it also means is that HOLY is a deflationary-type of the token. The more our users will use the app, the fewer tokens there will be in circulation over time. Lastly, being an early adopter has its advantages. As the inflation rate will be higher before the app launch, it means that one can generate more HOLY tokens to enjoy no fees for longer. Just keep in mind that HOLY can be used to cover the fees only once, as Yield Treasury will buyback and burn it."
+			},
+			{
+				"type": "image",
+				"data": {
+					"default": {
+						"1x": "/assets/images/content10@1x.png",
+						"2x": "/assets/images/content10@2x.png"
+					},
+					"webp": {
+						"1x": "/assets/images/content10@1x.webp",
+						"2x": "/assets/images/content10@2x.webp"
+					},
+					"alt": ""
+				}
+			},
+			{
+				"type": "title",
+				"data": "Great, but too long"
+			},
+			{
+				"type": "text",
+				"data": "Yeah, we know. Sorry about that. Let’s try to recap the article, here is what we have:"
+			},
+			{
+				"type": "list",
+				"data": [
+					"A team with industry-leading experience in engineering, crypto, and fintech.",
+					"The right incentives to accelerate user adoption, and invite a wider audience to experience the benefits of DeFi.",
+					"Token economic model that rewards early supporters, but solely focused on long term growth.",
+					"No token sale. Token to be distributed via a liquidity mining program.",
+					"Genesis block: 100,000,000 HOLY. No additional tokens to be minted, and a token buyback and burn program via the Yield Treasury.",
+					"You can read more details about the HOLY tokenomics and launch in <a class=\"link\" href=\"/promo/farming_holy/\">this article</a>.",
+					"Meme with us, talk to us, and connect with peers on <a class=\"link\" href=\"https://t.me/holyheld\" target=\"_blank\" rel=\"noreferrer noopener\">Telegram</a>, <a class=\"link\" href=\"https://discord.gg/DbH9cb7\" target=\"_blank\" rel=\"noreferrer noopener\">Discord</a>, or <a class=\"link\" href=\"https://twitter.com/holyheld\" target=\"_blank\" rel=\"noreferrer noopener\">Twitter</a>."
+				]
+			},
+			{
+				"type": "text",
+				"data": "Our main focus is and will be on building an exceptional service. We see a future where all your digital banking needs can be served by the service you love. And we believe that Holyheld will be leading the evolution to decentralized banking."
+			}
+		]
+	}
+}

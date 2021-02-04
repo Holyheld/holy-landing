@@ -1,0 +1,24 @@
+extends ../templates/page
+block head
+	include ../templates/head
+	+head(htmlWebpackPlugin.options.data.head)
+block content
+	+header(htmlWebpackPlugin.options.generalData, true)
+	main
+		+intro({
+			title: htmlWebpackPlugin.options.data.body.intro.title,
+			subtitleImage: htmlWebpackPlugin.options.data.body.outro.subtitleImage,
+			image: htmlWebpackPlugin.options.data.body.intro.image,
+			smImage: htmlWebpackPlugin.options.data.body.intro.smImage,
+			description: htmlWebpackPlugin.options.data.body.intro.description,
+			markets: htmlWebpackPlugin.options.generalData.markets
+		})
+		+cards(htmlWebpackPlugin.options.data.body.cards)
+		+outro({
+			title: htmlWebpackPlugin.options.data.body.outro.title,
+			subtitleImage: htmlWebpackPlugin.options.data.body.outro.subtitleImage,
+			image: htmlWebpackPlugin.options.data.body.outro.image,
+			description: htmlWebpackPlugin.options.data.body.outro.description,
+			markets: htmlWebpackPlugin.options.generalData.markets
+		})
+	+footer(htmlWebpackPlugin.options.generalData)

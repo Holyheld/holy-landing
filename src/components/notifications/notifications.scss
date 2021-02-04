@@ -1,0 +1,107 @@
+.notifications {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 184px;
+	overflow: hidden;
+
+	&__shadow {
+		position: absolute;
+		left: 0;
+		z-index: 6;
+		width: 100%;
+		height: 65px;
+
+		&:nth-child(1) {
+			top: -1px;
+			background: linear-gradient(
+				180deg,
+				rgba(#151515, 1) 0%,
+				rgba(#151515, 0) 100%
+			);
+		}
+
+		&:nth-child(2) {
+			bottom: -1px;
+			background: linear-gradient(
+				180deg,
+				rgba(#151515, 0) 0%,
+				rgba(#151515, 1) 100%
+			);
+		}
+	}
+	
+	&__list {
+		position: relative;
+		height: 78px;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		transition: transform 0.5s ease;
+		will-change: transform;
+	}
+
+	&__item {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 78px;
+		width: 100%;
+		padding: 8px 16px;
+		font-size: $font-size-xs;
+		line-height: $line-height-md;
+		background: $color-gray;
+		border-radius: 12px;
+		will-change: transform;
+
+		&::last-child {
+			margin: 0;
+		}
+	}
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		margin: 0 0 8px;
+	}
+
+	&__from {
+		position: relative;
+		padding: 0 0 0 24px;
+		font-weight: $font-weight-medium;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 17px;
+			height: 17px;
+			border-radius: 4px;
+			background-image: url('/assets/images/notification@3x.png');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+	}
+
+	&__title {
+		display: block;
+		width: 100%;
+		overflow: hidden;
+		font-weight: $font-weight-medium;
+		font-size: $font-size-xs;
+		line-height: $line-height-md;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	&__text {
+		overflow: hidden;
+		color: $color-white;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}

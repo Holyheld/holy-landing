@@ -1,0 +1,15 @@
+mixin socials({ list })
+	.socials
+		ul.socials__list
+			each item in list
+				li.socials__item
+					a.socials__link(
+						href=item.href
+						target=item.target
+						rel=item.rel
+						title=item.name
+					)
+						+icon({
+							className: "socials__icon",
+							id: item.icon
+						})

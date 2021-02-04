@@ -1,0 +1,80 @@
+.cards {
+	max-width: 840px;
+	margin: 0 auto;
+	padding: 80px 0;
+
+	@include media-breakpoint-down(md) {
+		max-width: 724px;
+		padding: 40px 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		max-width: 350px;
+	}
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -20px -40px;
+		padding: 0;
+		list-style-type: none;
+
+		@include media-breakpoint-down(md) {
+			margin: 0 -12px -24px;
+		}
+
+		@include media-breakpoint-down(sm) {
+			display: block;
+			margin: 0;
+		}
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		margin: 0 0 40px;
+		padding: 0 20px;
+
+		@include media-breakpoint-down(md) {
+			margin: 0 0 24px;
+			padding: 0 12px;
+		}
+
+		@include media-breakpoint-down(sm) {
+			display: block;
+			width: auto;
+			max-width: none;
+			padding: 0;
+		}
+
+		&:last-child {
+			@include media-breakpoint-down(sm) {
+				margin: 0 auto;
+			}
+		}
+
+		&_sm {
+			width: 50%;
+			max-width: 50%;
+
+			@include media-breakpoint-down(sm) {
+				width: auto;
+				max-width: none;
+			}
+		}
+
+		&_lg {
+			width: 100%;
+			max-width: 100%;
+
+			@include media-breakpoint-down(sm) {
+				width: auto;
+				max-width: none;
+			}
+		}
+
+		.card {
+			flex-grow: 1;
+		}
+	}
+}

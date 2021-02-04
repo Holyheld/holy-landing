@@ -1,0 +1,129 @@
+{
+	"head": {
+		"title": "FAQ: Urgent problems - Holyheld",
+		"description": "Answers to frequently asked questions. Instructions and manuals for working with Holyheld products."
+	},
+	"body": {
+		"order": 6,
+		"title": "Urgent problems",
+		"description": "Find out what you should do if you have a problem.",
+		"image": {
+			"default": {
+				"1x": "/assets/images/hand-faq@1x.png",
+				"2x": "/assets/images/hand-faq@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/hand-faq@1x.webp",
+				"2x": "/assets/images/hand-faq@2x.webp"
+			},
+			"alt": ""
+		},
+		"smImage": {
+			"default": {
+				"1x": "/assets/images/hand-faq-sm@1x.png",
+				"2x": "/assets/images/hand-faq-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/hand-faq-sm@1x.webp",
+				"2x": "/assets/images/hand-faq-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewImage": {
+			"default": {
+				"1x": "/assets/images/hand-faq-preview@1x.png",
+				"2x": "/assets/images/hand-faq-preview@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/hand-faq-preview@1x.webp",
+				"2x": "/assets/images/hand-faq-preview@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewSmImage": {
+			"default": {
+				"1x": "/assets/images/hand-faq-preview-sm@1x.png",
+				"2x": "/assets/images/hand-faq-preview-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/hand-faq-preview-sm@1x.webp",
+				"2x": "/assets/images/hand-faq-preview-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"content": [
+			{
+				"type": "title",
+				"data": "How to report a lost, damaged or stolen card"
+			},
+			{
+				"type": "text",
+				"data": "If your card's lost, damaged, or stolen, it's easy to order a new one 💁‍♂️. Swipe left → Settings → Reporting a lost, damaged, or stolen card."
+			},
+			{
+				"type": "text",
+				"data": "If your card's been stolen, or you've seen transactions that look fraudulent, please make sure your card stays frozen until your replacement arrives. You should also tell us about this in the app: Swipe left → Settings → Reporting a lost, damaged, or stolen card."
+			},
+			{
+				"type": "title",
+				"data": "I forgot my PIN"
+			},
+			{
+				"type": "text",
+				"data": "Forgotten your PIN? Swipe right → Tap on the card → PIN & card number button under your Holyheld card → Reset your PIN. You'll need to show some ID and take a photo of your face 📸."
+			},
+			{
+				"type": "text",
+				"data": "In the future, you can save time by using your fingerprint or face to confirm it’s you when logging in."
+			},
+			{
+				"type": "title",
+				"data": "How to unblock my account"
+			},
+			{
+				"type": "text",
+				"data": "If you put the wrong PIN in too many times when making a transfer or changing your account settings, we’ll block it to keep your account safe. Follow these steps to unblock your account: Swipe right → Tap on the card → PIN & card number button under your Holyheld card → Reset your PIN. You'll need to show some ID and take a photo of your face 📸."
+			},
+			{
+				"type": "title",
+				"data": "I lost my phone"
+			},
+			{
+				"type": "text",
+				"data": "If you’ve lost your phone and Holyheld card you should contact us, and we’ll be able to log you out of your Holyheld account remotely."
+			},
+			{
+				"type": "text",
+				"data": "<a class=\"link\" href=\"tel:07725259779\">077 2525 9779</a> from the UK </br> <a class=\"link\" href=\"tel:+447725259779\">+4477 2525 9779</a> from abroad </br> <a class=\"link\" href=\"mailto:help@holyheld.com\">help@holyheld.com</a>"
+			},
+			{
+				"type": "title",
+				"data": "I want to make a complaint"
+			},
+			{
+				"type": "text",
+				"data": "If you'd like to make a complaint, please get in touch and we'll look into this for you. If you're a Holyheld customer, you can chat to us in the app. Email us at <a class=\"link\" href=\"mailto:complaints@holyheld.com\">complaints@holyheld.com</a>"
+			},
+			{
+				"type": "text",
+				"data": "If you’d prefer, you can put your complaint in writing and send it to: </br> Customer Advocacy Team </br> Holyheld, Broadwalk House, 5 Appold Street, London EC2A 2AG"
+			},
+			{
+				"type": "text",
+				"data": "What happens next? We'll be in touch within 3 business days to try to resolve your complaint. If we can't do it in this timeframe, please note that we're typically allowed up to 15 business days (or in some cases up to 8 weeks) to investigate your complaint and produce what's called a 'final response'."
+			},
+			{
+				"type": "text",
+				"data": "If you're not happy with our final response, you have the right to refer your complaint to the Financial Ombudsman Service, free of charge — but you have to do this within 6 months of the date of our final response."
+			},
+			{
+				"type": "text",
+				"data": "How to get in touch with the Financial Ombudsman. The Ombudsman’s address is: </br> Financial Ombudsman Service </br> Exchange Tower </br> London </br> E14 9SR"
+			},
+			{
+				"type": "text",
+				"data": "You can call the Ombudsman on 0800 023 4567 or 0300 123 9123. Visit the Ombudsman's website for more information: <a class=\"link\" href=\"https://www.financial-ombudsman.org.uk/\" target=\"_blank\" rel=\"noreferrer noopener\">financial-ombudsman.org.uk</a>. You can also find an online version of their <a class=\"link\" href=\"https://www.financial-ombudsman.org.uk/businesses/resolving-complaint/ordering-leaflet\" target=\"_blank\" rel=\"noreferrer noopener\">consumer leaflet</a>."
+			}
+		]
+	}
+}

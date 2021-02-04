@@ -1,0 +1,229 @@
+{
+	"head": {
+		"title": "FAQ: Holyheld Card - Holyheld",
+		"description": "Answers to frequently asked questions. Instructions and manuals for working with Holyheld products."
+	},
+	"body": {
+		"order": 2,
+		"title": "Holyheld card",
+		"description": "What is a virtual card? Apple Pay? Too complicated. We reveal all the possibilities of our card here.",
+		"image": {
+			"default": {
+				"1x": "/assets/images/card-faq@1x.png",
+				"2x": "/assets/images/card-faq@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/card-faq@1x.webp",
+				"2x": "/assets/images/card-faq@2x.webp"
+			},
+			"alt": ""
+		},
+		"smImage": {
+			"default": {
+				"1x": "/assets/images/card-faq-sm@1x.png",
+				"2x": "/assets/images/card-faq-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/card-faq-sm@1x.webp",
+				"2x": "/assets/images/card-faq-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewImage": {
+			"default": {
+				"1x": "/assets/images/card-faq-preview@1x.png",
+				"2x": "/assets/images/card-faq-preview@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/card-faq-preview@1x.webp",
+				"2x": "/assets/images/card-faq-preview@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewSmImage": {
+			"default": {
+				"1x": "/assets/images/card-faq-preview-sm@1x.png",
+				"2x": "/assets/images/card-faq-preview-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/card-faq-preview-sm@1x.webp",
+				"2x": "/assets/images/card-faq-preview-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"content": [
+			{
+				"type": "title",
+				"data": "What is a virtual card?"
+			},
+			{
+				"type": "text",
+				"data": "It is a virtual banking card that you can get in the app and start using Holyheld right now, you just need to enter your phone number, and validate your identity."
+			},
+			{
+				"type": "title",
+				"data": "Why do you need a virtual card?"
+			},
+			{
+				"type": "text",
+				"data": "You can try Holyheld with it, without waiting until we print a physical card and deliver it. You can pay for online and retail purchases using Apple Pay, Google Pay, or Samsung Pay."
+			},
+			{
+				"type": "title",
+				"data": "How do I get a virtual card?"
+			},
+			{
+				"type": "text",
+				"data": "After validating your identity, on the start screen of the app, click the “Issue a card” button under the message that your virtual card is already ready, enter your phone number, SMS code, come up with a code to enter the application and a security code word. That’s it."
+			},
+			{
+				"type": "title",
+				"data": "How do I top up a virtual card?"
+			},
+			{
+				"type": "text",
+				"data": "You can use ATMs that support Apple Pay, Google Pay or Samsung Pay, as well as transfer by card number through third-party services."
+			},
+			{
+				"type": "text",
+				"data": "We do not take a commission for replenishment by any of these methods within the limits on the balance, but ATMs can take their own commission, which is usually warned on the screen. When transferring by card number, 3rd party services can also take a commission, you can clarify comission rates from the support team at the bank from where you want to transfer money."
+			},
+			{
+				"type": "title",
+				"data": "How to pay with a virtual card?"
+			},
+			{
+				"type": "text",
+				"data": "If buying online, use the card details from the Holyheld app, and to pay in regular stores, add the card to Apple Pay, Google Pay or Samsung Pay."
+			},
+			{
+				"type": "title",
+				"data": "How to find out the card details?"
+			},
+			{
+				"type": "text",
+				"data": "Select a virtual card in the cards section and click \"Card details\". There you will see the card number and its expiration date (you can copy them), and CVC will be displayed in the hidden menu."
+			},
+			{
+				"type": "title",
+				"data": "How many virtual cards can I issue?"
+			},
+			{
+				"type": "text",
+				"data": "Three. That is, you can have no more than three physical and three virtual cards at the same time."
+			},
+			{
+				"type": "title",
+				"data": "What is Apple Pay?"
+			},
+			{
+				"type": "text",
+				"data": "Apple Pay — is the ability to pay for purchases and services in stores, on the Internet, and elsewhere on your iPhone or Apple Watch. To do this, simply bring your phone or watch to the terminal. And on the Internet, open the site in Safari and confirm the purchase using Touch ID on your device or iPhone."
+			},
+			{
+				"type": "title",
+				"data": "What devices does Apple Pay support?"
+			},
+			{
+				"type": "text",
+				"data": "— All models starting from iPhone SE </br> — All Apple Watch models paired with iPhone, starting iPhone 5 </br> — iPad (Pro, Air 2, Mini 4, Mini 3) payment in apps and Safari </br> — Mac Pay in Safari </br> — The latest version of iOS (10.1), watchOS 3, macOS (10.12) must be installed"
+			},
+			{
+				"type": "text",
+				"data": "Learn more about supported models at <a class=\"link\" href=\"https://www.apple.com/\" target=\"_blank\" rel=\"noreferrer noopener\">apple.com</a>"
+			},
+			{
+				"type": "title",
+				"data": "How does Apple Pay work?"
+			},
+			{
+				"type": "text",
+				"data": "Inside the iPhone and Apple Watch, there is a special chip that allows you to exchange data at a distance of several centimeters. To pay, you need to bring the phone to the terminal and put your finger on Touch ID, or Apple Watch by quickly double-clicking on the long button. The device detects the terminal thanks to the built-in NFC antenna, and the coprocessor in the device, based on a fingerprint or a code, understands it or not. Further, the encrypted \"key\" (token) of your device and card is transferred to the terminal, and the payment is made as with a card."
+			},
+			{
+				"type": "title",
+				"data": "Is Apple Pay safe to use?"
+			},
+			{
+				"type": "text",
+				"data": "Even if you lose your iPhone or Apple Watch, the risk of losing money is zero. The finder of the device will not use it without your fingerprint or password, which is set on your phone or watch."
+			},
+			{
+				"type": "title",
+				"data": "Can Apple see all my data and purchases?"
+			},
+			{
+				"type": "text",
+				"data": "No, Apple doesn't see or store anything. In simple terms, all your payment information and fingerprints are stored in a special part of the processor, and no one can access them, including the FBI, CIA or other special services. Your bank card data is transformed into a unique and encrypted key, so no one on the planet has access to it."
+			},
+			{
+				"type": "title",
+				"data": "What if someone taps my iPhone or iWatch on the terminal or in the tube?"
+			},
+			{
+				"type": "text",
+				"data": "Nothing will happen. The payment on the iPhone must be confirmed with a fingerprint, and on the watch for payment you need to activate Apple Pay by double-clicking on the long button and enter the code."
+			},
+			{
+				"type": "title",
+				"data": "I can’t set up my Apple Pay. What to do?"
+			},
+			{
+				"type": "text",
+				"data": "First, try setting up a card through the Holyheld app. There will be no SMS or card data entry, so there is no chance of making a mistake. Open the app and tap on the map on the Home screen. Select Add Card to Apple Pay and follow the instructions."
+			},
+			{
+				"type": "text",
+				"data": "If the Holyheld card cannot be attached to Apple Pay in the application, then you can try to link it through the Wallet application. To do this, open the Wallet app (on iPad - Settings - \"Wallet & Apple Pay\", and on Apple Watch - Apple Watch app on iPhone) and click on the + in the upper right corner of the screen and follow the instructions on the screen. If this does not help, perhaps Apple is configuring something and you just need to wait."
+			},
+			{
+				"type": "title",
+				"data": "What if I lost my card?"
+			},
+			{
+				"type": "text",
+				"data": "You can still use Apple Pay, but please don't do so. Your card could end up in the hands of an attacker. You can block the card yourself in the Holyheld app or immediately write to support so that we block the card and send a new one for reissue. Once you have the new card, you can set up Apple Pay with the new card again."
+			},
+			{
+				"type": "title",
+				"data": "What if I lost my phone?"
+			},
+			{
+				"type": "text",
+				"data": "We recommend that you turn on Lost Mode in Find My iPhone, or go to iCloud and turn it on there. There you can also erase all data about the device or delete all cards in Apple Pay. In addition, you can contact our support, which will tell you what to do and promptly block the payment on your card from this device."
+			},
+			{
+				"type": "text",
+				"data": "In any case, don't worry, without your fingerprint / code no one will be able to make a payment anyway. At the same time, you can pay with your card as before."
+			},
+			{
+				"type": "title",
+				"data": "Now I don’t need to have the card on me?"
+			},
+			{
+				"type": "text",
+				"data": "Not really, unfortunately. The fact is that not all terminals support contactless payment yet. Therefore, from time to time, you still need a card to make purchases, for example, with a chip or withdraw cash from an ATM."
+			},
+			{
+				"type": "title",
+				"data": "Can I forget my PIN forever?"
+			},
+			{
+				"type": "text",
+				"data": "Same here, in most terminals for purchases from 25 GBP you will be asked to enter the PIN code. Just enter it on the terminal as usual."
+			},
+			{
+				"type": "text",
+				"data": "There are also very advanced terminals that consider the fingerprint as the pin-code of the card, and you will not need to enter the pin-code. Don't be afraid, it's okay, there will be more of them in the future."
+			},
+			{
+				"type": "title",
+				"data": "Can I link my card to a friend / wife / brother's phone number and so on?"
+			},
+			{
+				"type": "text",
+				"data": "No, it is the same as if you gave the card and all its data to another person. The bank forbids doing this, but we cannot control it in any way. If someone makes purchases for you, and you disagree with this and ask us for help in disputing, then we will not be able to help in any way. For us, all purchases are made by you 😕"
+			}
+		]
+	}
+}

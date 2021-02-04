@@ -1,0 +1,109 @@
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 102px 0 80px;
+	text-align: center;
+
+	@include media-breakpoint-down(md) {
+		padding: 120px 0 40px;
+	}
+
+	&__title {
+		max-width: 600px;
+		margin: 0 0 40px;
+	}
+
+	&__picture {
+		position: relative;
+		max-width: 840px;
+		width: 100%;
+		margin: 0 0 40px;
+
+		@include media-breakpoint-down(sm) {
+			max-width: 350px;
+		}
+
+		&::before {
+			content: '';
+			display: block;
+			padding: 0 0 42.858%;
+
+			@include media-breakpoint-down(sm) {
+				padding: 0 0 48%;
+			}
+		}
+	}
+
+	&__subtitle-picture {
+		width: 165px;
+		height: 28px;
+		margin: 0 0 24px;
+
+		@include media-breakpoint-down(md) {
+			width: 133px;
+			height: 23px;
+			margin: 0 0 16px;
+		}
+	}
+
+	&__subtitle-image {
+		width: 100%;
+		height: auto;
+	}
+
+	&__image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	&__description {
+		max-width: 600px;
+		margin: 0 0 40px;
+		font-weight: $font-weight-medium;
+		font-size: $font-size-h3;
+		line-height: $line-height-h3;
+
+		@include media-breakpoint-down(md) {
+			font-size: $font-size-h3-md;
+			line-height: $line-height-h3-md;
+		}
+	}
+
+	&__footer {
+		display: flex;
+		align-items: baseline;
+
+		@include media-breakpoint-down(sm) {
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			max-width: 600px;
+			text-align: center;
+		}
+	}
+
+	&__button {
+		margin: 0 40px 0 0;
+
+		@include media-breakpoint-down(sm) {
+			width: 100%;
+			max-width: 350px;
+			margin: 0 0 24px;
+		}
+	}
+
+	&__link {
+		margin: -8px 0;
+		padding: 8px 0;
+		font-weight: $font-weight-medium;
+		font-size: $font-size-md;
+	}
+}

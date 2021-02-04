@@ -1,0 +1,10 @@
+mixin back-link({ className, title, href })
+	a.back-link(
+		class=`${className ? className : ''}`
+		href=`${href}`
+		title=title
+	)
+		+icon({
+			className: 'back-link__icon',
+			id: 'icon-arrow-left',
+		})

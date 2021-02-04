@@ -1,0 +1,10 @@
+mixin icon-button({ className, icon, title, reverse })
+	button.icon-button.js-focus-visible(
+		class=`${reverse ? 'icon-button_reverse' : ''} ${className ? className : ''}`
+		type="button"
+		title=title
+	)
+		+icon({
+			className: `icon-button__icon ${icon}`,
+			id: icon,
+		})

@@ -1,0 +1,6 @@
+mixin link({className, mod, text, href, target, rel, itemprop, title, ariaLabel })
+	- if (href) 
+		a.link(class=`${className ? className : ''}` class=`${mod ? `link_${mod}` : ''}` href=`${href}` target=target rel=rel itemprop=itemprop title=title aria-label=ariaLabel)=text
+	- else
+		button.link.js-focus-visible(class=`${className ? className : ''}` class=`${mod ? `link_${mod}` : ''}` type='button' itemprop=itemprop title=title aria-label=ariaLabel)=text
+		

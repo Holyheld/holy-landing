@@ -1,0 +1,116 @@
+{
+	"logo": {
+		"default": {
+			"2x": "/assets/images/logo@2x.png"
+		},
+		"webp": {
+			"2x": "/assets/images/logo@2x.webp"
+		},
+		"alt": ""
+	},
+	"contentLinks": [
+		{
+			"text": "Knowledge center",
+			"href": "/faq/"
+		},
+		{
+			"text": "Promotions",
+			"href": "/promo/farming_holy/"
+		},
+		{
+			"text": "iOS App",
+			"target": "_blank",
+			"rel": "noreferrer noopener",
+			"href": "#"
+		},
+		{
+			"text": "Android App",
+			"target": "_blank",
+			"rel": "noreferrer noopener",
+			"href": "#"
+		},
+		{
+			"text": "Staking Portal",
+			"target": "_blank",
+			"rel": "noreferrer noopener",
+			"href": "https://app.holyheld.com/"
+		}
+	],
+	"infoLinks": [
+		{
+			"text": "Privacy policy",
+			"href": "/privacy-policy/"
+		},
+		{
+			"text": "Security",
+			"href": "/security/"
+		}
+	],
+	"contacts": {
+		"title": "Talk to us",
+		"email": "hello@holyheld.com"
+	},
+	"info": {
+		"title": "Legal info",
+		"text": [
+			"Holyheld Financial at 20-22 Wenlock Road, London, N1 7GU",
+			"The information posted on this page is not a public offer."
+		]
+	},
+	"socials": {
+		"title": "Meme with us",
+		"list": [
+			{
+				"name": "Twitter",
+				"href": "https://twitter.com/holyheld",
+				"target": "_blank",
+				"rel": "noreferrer noopener",
+				"icon": "icon-twitter"
+			},
+			{
+				"name": "Medium",
+				"href": "https://medium.com/holyheld",
+				"target": "_blank",
+				"rel": "noreferrer noopener",
+				"icon": "icon-medium"
+			},
+			{
+				"name": "Discord",
+				"href": "https://discord.gg/DbH9cb7",
+				"target": "_blank",
+				"rel": "noreferrer noopener",
+				"icon": "icon-discord"
+			},
+			{
+				"name": "Telegram",
+				"href": "https://t.me/holyheld",
+				"target": "_blank",
+				"rel": "noreferrer noopener",
+				"icon": "icon-telegram"
+			},
+			{
+				"name": "Github",
+				"href": "https://github.com/holyheld",
+				"target": "_blank",
+				"rel": "noreferrer noopener",
+				"icon": "icon-github"
+			}
+		]
+	},
+	"markets": [
+		{
+			"name": "App Store",
+			"href": "#",
+			"target": "_blank",
+			"rel": "noreferrer noopener",
+			"image": "/assets/images/app-store.svg"
+		},
+		{
+			"name": "Google Play",
+			"href": "#",
+			"target": "_blank",
+			"rel": "noreferrer noopener",
+			"image": "/assets/images/google-play.svg"
+		}
+	]
+}

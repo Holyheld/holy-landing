@@ -1,0 +1,7 @@
+.page {
+	padding: 168px 0 200px;
+
+	@include media-breakpoint-down(md) {
+		padding: 96px 0 80px;
+	}
+}

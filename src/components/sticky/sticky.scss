@@ -1,0 +1,10 @@
+.sticky {
+	position: sticky;
+	top: 104px;
+	left: 0;
+	width: 100%;
+
+	&.disabled {
+		position: static !important;
+	}
+}

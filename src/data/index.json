@@ -1,0 +1,558 @@
+{
+	"head": {
+		"title": "Holyheld - financial service for a digital generation.",
+		"description": "Easiest way to trade, store, send, and earn interest on your crypto in a simple wallet with a debit card - Holyheld."
+	},
+	"body": {
+		"intro": {
+			"title": "Financial service for a digital generation",
+			"subtitleImage": {
+				"default": {
+					"1x": "/assets/images/holyheld-alpha@1x.png",
+					"2x": "/assets/images/holyheld-alpha@2x.png"
+				},
+				"webp": {
+					"1x": "/assets/images/holyheld-alpha@1x.webp",
+					"2x": "/assets/images/holyheld-alpha@2x.webp"
+				},
+				"alt": ""
+			},
+			"image": {
+				"default": {
+					"1x": "/assets/images/intro@1x.png",
+					"2x": "/assets/images/intro@2x.png"
+				},
+				"webp": {
+					"1x": "/assets/images/intro@1x.webp",
+					"2x": "/assets/images/intro@2x.webp"
+				},
+				"alt": ""
+			},
+			"smImage": {
+				"default": {
+					"1x": "/assets/images/intro-sm@1x.png",
+					"2x": "/assets/images/intro-sm@2x.png"
+				},
+				"webp": {
+					"1x": "/assets/images/intro-sm@1x.webp",
+					"2x": "/assets/images/intro-sm@2x.webp"
+				},
+				"alt": ""
+			},
+			"description": "Easiest way to trade, store, send, and earn interest on your crypto in a simple wallet with a debit card."
+		},
+
+		"cards": {
+			"list": [
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "image",
+							"data": {
+								"default": {
+									"1x": "/assets/images/neon-card@1x.png",
+									"2x": "/assets/images/neon-card@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/neon-card@1x.webp",
+									"2x": "/assets/images/neon-card@2x.webp"
+								},
+								"alt": ""
+							},
+							"smData": {
+								"default": {
+									"1x": "/assets/images/neon-card-sm@1x.png",
+									"2x": "/assets/images/neon-card-sm@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/neon-card-sm@1x.webp",
+									"2x": "/assets/images/neon-card-sm@2x.webp"
+								},
+								"alt": ""
+							}
+						},
+						{
+							"type": "title",
+							"data": "Best crypto trading experience on mobile."
+						}
+					],
+					"back": {
+						"title": "Convenient crypto trading",
+						"text": "Trade all 3000+ tokens available on Uniswap with no commission. Forget about the gas fees. Receive smart price notifications and set targets in a simple and convenient interface."
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "gradient-title",
+							"data": "No fees. Not even hidden ones."
+						},
+						{
+							"type": "text",
+							"data": "Your debit card will arrive for free. Oh, and there are no trading fees on your crypto as well."
+						}
+					],
+					"back": {
+						"title": "No Fees",
+						"text": "Holyheld account is free. Moreover, Holyheld card doesn’t have any fees as well. No monthly, annual, over-the-limit, foreign-transaction, or reservation fees."
+					}
+				},
+				{
+					"size": "sm",
+					"bg": "/assets/images/coins.gif",
+					"front": [
+						{
+							"type": "title",
+							"data": "Trade all 3000+ tokens on Uniswap in a tap."
+						},
+						{
+							"type": "text",
+							"data": "Your crypto assets can do more than just sitting in the wallet."
+						}
+					],
+					"back": {
+						"title": "Investing for everyone",
+						"text": "We make crypto trading on decentralized exchanges finally convenient. Search, browse and trade 3000+ tokens right in the app. When you make a deposit, those funds are immediately available for purchasing cryptocurrencies in your Holyheld account. More coins. Less FOMO."
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "title",
+							"data": "Interest rates up to 20% APY."
+						},
+						{
+							"type": "text",
+							"data": "Paid daily."
+						},
+						{
+							"type": "notifications",
+							"data": [
+								{
+									"from": "Holyheld",
+									"time": "now",
+									"title": "Daily interest",
+									"text": "💰 Received £19.27. Paid to your main wallet"
+								},
+								{
+									"from": "Holyheld",
+									"time": "now",
+									"title": "Daily interest",
+									"text": "💰 Received £14.18. Paid to your main wallet"
+								},
+								{
+									"from": "Holyheld",
+									"time": "now",
+									"title": "Daily interest",
+									"text": "💰 Received £16.70. Paid to your main wallet"
+								},
+								{
+									"from": "Holyheld",
+									"time": "now",
+									"title": "Daily interest",
+									"text": "💰 Received £21.07. Paid to your main wallet"
+								},
+								{
+									"from": "Holyheld",
+									"time": "now",
+									"title": "Daily interest",
+									"text": "💰 Received £7.91. Paid to your main wallet"
+								},
+								{
+									"from": "Holyheld",
+									"time": "now",
+									"title": "Daily interest",
+									"text": "💰 Received £12.69. Paid to your main wallet"
+								},
+								{
+									"from": "Holyheld",
+									"time": "now",
+									"title": "Daily interest",
+									"text": "💰 Received £19.05. Paid to your main wallet"
+								}
+							]
+						}
+					],
+					"back": {
+						"title": "More for your money",
+						"text": "Your money is automatically rebalanced to maximize your returns with exclusive exposure to USD. We leverage the best new and secure protocols with the highest interest available. We also do market-making, and insurance providing for you to ensure that you get the best return on your money."
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "title",
+							"data": "Convenient Mastercard Debit Card."
+						},
+						{
+							"type": "image",
+							"data": {
+								"default": {
+									"1x": "/assets/images/card-card@1x.png",
+									"2x": "/assets/images/card-card@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/card-card@1x.webp",
+									"2x": "/assets/images/card-card@2x.webp"
+								},
+								"alt": ""
+							},
+							"smData": {
+								"default": {
+									"1x": "/assets/images/card-card-sm@1x.png",
+									"2x": "/assets/images/card-card-sm@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/card-card-sm@1x.webp",
+									"2x": "/assets/images/card-card-sm@2x.webp"
+								},
+								"alt": ""
+							}
+						}
+					],
+					"back": {
+						"title": "Exclusive card",
+						"text": "Your Holyheld card is different. With clean styling, it is designed to fit our digital era. And it is free. You don’t pay anything to order your card. Since Mastercard is our global payment network, you can use it all over the world with immediate access to your funds."
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "text",
+							"data": "While you wait for the delivery, your virtual card is available for use right away."
+						},
+						{
+							"type": "bottom-image",
+							"data": {
+								"default": {
+									"1x": "/assets/images/phone@1x.png",
+									"2x": "/assets/images/phone@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/phone@1x.webp",
+									"2x": "/assets/images/phone@2x.webp"
+								},
+								"alt": ""
+							},
+							"smData": {
+								"default": {
+									"1x": "/assets/images/phone-sm@1x.png",
+									"2x": "/assets/images/phone-sm@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/phone-sm@1x.webp",
+									"2x": "/assets/images/phone-sm@2x.webp"
+								},
+								"alt": ""
+							}
+						}
+					],
+					"back": {
+						"title": "Available immediately",
+						"text": "Receive a virtual card that is immediately available for use, while you wait for your Holyheld card delivery. For apps and websites, simply enter the virtual card number stored securely in the app. Your virtual card is automatically replaced after every purchase for additional security. Never have to worry about forgotten subscriptions again."
+					}
+				},
+				{
+					"size": "lg",
+					"front": [
+						{
+							"type": "image",
+							"data": {
+								"default": {
+									"1x": "/assets/images/brain-card@1x.png",
+									"2x": "/assets/images/brain-card@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/brain-card@1x.webp",
+									"2x": "/assets/images/brain-card@2x.webp"
+								},
+								"alt": ""
+							},
+							"smData": {
+								"default": {
+									"1x": "/assets/images/brain-card-sm@1x.png",
+									"2x": "/assets/images/brain-card-sm@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/brain-card-sm@1x.webp",
+									"2x": "/assets/images/brain-card-sm@2x.webp"
+								},
+								"alt": ""
+							}
+						},
+						{
+							"type": "title",
+							"data": "One app that helps you manage all your digital economy in a tap."
+						}
+					],
+					"back": {
+						"title": "Modern debit card",
+						"text": "You can sign up in as little as a minute and start using your virtual card it right away. Holyheld is a financial service that understands your digital needs. Simple interface, portfolio, asset marketplace, and asset management in the app that recognizes you by a face or by fingerprint.",
+						"link": {
+							"text": "Staking Portal",
+							"href": "https://app.holyheld.com/",
+							"target": "_blank",
+							"rel": "noreferrer noopener"
+						}
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "image",
+							"data": {
+								"default": {
+									"1x": "/assets/images/planes-card@1x.png",
+									"2x": "/assets/images/planes-card@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/planes-card@1x.webp",
+									"2x": "/assets/images/planes-card@2x.webp"
+								},
+								"alt": ""
+							},
+							"smData": {
+								"default": {
+									"1x": "/assets/images/planes-card-sm@1x.png",
+									"2x": "/assets/images/planes-card-sm@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/planes-card-sm@1x.webp",
+									"2x": "/assets/images/planes-card-sm@2x.webp"
+								},
+								"alt": ""
+							}
+						},
+						{
+							"type": "title",
+							"data": "Send and receive USD globally."
+						}
+					],
+					"back": {
+						"title": "Borderless payments",
+						"text": "We take the confusion and complexity out of payments so you can focus on what matters. You can send and receive US dollars from anywhere in the world. We use cryptocurrency technology under the hood, and that is why our payments are fully global. Send money to friends, family, or colleagues anywhere in the world."
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "title",
+							"data": "Simple analytics to manage all digital."
+						},
+						{
+							"type": "bars"
+						}
+					],
+					"back": {
+						"title": "Powerful simple analytics",
+						"text": "There’s no need to call your bank manager or endlessly browse through the app to see how much you’re spending. Your totals are automatically added up and ready to view by week or by month. Simple categories make it easy to understand your expenses. Also, you won’t wonder what does that payment code stands for. All transactions are easy to read, and we even show you where exactly you made a transaction on the map."
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "text",
+							"data": "Friendly support is always available in the app. Just swipe right."
+						},
+						{
+							"type": "chat",
+							"data": [
+								{
+									"text": "I’m about to change my address. Can you please update it on the profile?",
+									"time": "11:18"
+								},
+								{
+									"from": "Holyheld",
+									"text": "Sure! What’s the new address?",
+									"time": "11:19"
+								},
+								{
+									"text": "9 Downing St, Westminster, London SW1A 2AA",
+									"time": "11:20"
+								},
+								{
+									"from": "Holyheld",
+									"text": "Congrats on the move! All done.",
+									"time": "11:21"
+								}
+							]
+						}
+					],
+					"back": {
+						"title": "Support that helps",
+						"text": "Our support is always available in the app. If you have any questions or run into any problems, our friendly customer support will be there to help you out. Just message us, there is no need to wait. Your customer support should be instant without any emails or tiring phone calls."
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "image",
+							"data": {
+								"default": {
+									"1x": "/assets/images/cube-card@1x.png",
+									"2x": "/assets/images/cube-card@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/cube-card@1x.webp",
+									"2x": "/assets/images/cube-card@2x.webp"
+								},
+								"alt": ""
+							},
+							"smData": {
+								"default": {
+									"1x": "/assets/images/cube-card-sm@1x.png",
+									"2x": "/assets/images/cube-card-sm@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/cube-card-sm@1x.webp",
+									"2x": "/assets/images/cube-card-sm@2x.webp"
+								},
+								"alt": ""
+							}
+						},
+						{
+							"type": "title",
+							"data": "Security that makes your life easier."
+						}
+					],
+					"back": {
+						"title": "Privacy and security",
+						"text": "We take your privacy and security seriously. It’s not just our philosophy — it's how we build Holyheld. We use advanced technologies to make sure you’re the only one who can use your Holyheld card. Your transaction history and spending habits belong to you and you alone. Your data isn’t shared or sold to third parties for marketing or advertising."
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "title",
+							"data": "The next generation token farming."
+						},
+						{
+							"type": "image",
+							"data": {
+								"default": {
+									"1x": "/assets/images/roller-card@1x.png",
+									"2x": "/assets/images/roller-card@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/roller-card@1x.webp",
+									"2x": "/assets/images/roller-card@2x.webp"
+								},
+								"alt": ""
+							},
+							"smData": {
+								"default": {
+									"1x": "/assets/images/roller-card-sm@1x.png",
+									"2x": "/assets/images/roller-card-sm@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/roller-card-sm@1x.webp",
+									"2x": "/assets/images/roller-card-sm@2x.webp"
+								},
+								"alt": ""
+							}
+						}
+					],
+					"back": {
+						"title": "Latest promotion",
+						"text": "Nothing else to add here. It’s a simple concept. We are building a service that meets the everchanging standards of our digital age, and we want to build it together. Moreover, we can’t do it without you. Farm HOLY token by providing liquidity or by staking other DeFi LP tokens. Token holders will receive exclusive rewards and early access to the app. HOLY token will be used to cover all banking and trading fees in the app. Let’s farm together with friends.",
+						"link": {
+							"text": "Staking Portal",
+							"href": "https://app.holyheld.com/",
+							"target": "_blank",
+							"rel": "noreferrer noopener"
+						}
+					}
+				},
+				{
+					"size": "sm",
+					"front": [
+						{
+							"type": "image",
+							"data": {
+								"default": {
+									"1x": "/assets/images/water-card@1x.png",
+									"2x": "/assets/images/water-card@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/water-card@1x.webp",
+									"2x": "/assets/images/water-card@2x.webp"
+								},
+								"alt": ""
+							},
+							"smData": {
+								"default": {
+									"1x": "/assets/images/water-card-sm@1x.png",
+									"2x": "/assets/images/water-card-sm@2x.png"
+								},
+								"webp": {
+									"1x": "/assets/images/water-card-sm@1x.webp",
+									"2x": "/assets/images/water-card-sm@2x.webp"
+								},
+								"alt": ""
+							}
+						},
+						{
+							"type": "text",
+							"data": "14 September"
+						},
+						{
+							"type": "title",
+							"data": "Getting our feet wet."
+						},
+						{
+							"type": "text",
+							"data": "Latest story in our blog."
+						}
+					],
+					"back": {
+						"title": "Latest article",
+						"text": "We are now actively building Holyheld. Our main goal is to build a sustainable financial service for our generation. We want a safe and convenient way to trade on decentralized exchanges with the convenience of a debit card in your pocket or on your phone. We have this grand vision, but what’s more important we have a plan.",
+						"link": {
+							"text": "Read more",
+							"ariaLabel": "Getting our feet wet",
+							"title": "Getting our feet wet",
+							"href": "/faq/getting_our_feet_wet/"
+						}
+					}
+				}
+			]
+		},
+
+		"outro": {
+			"title": "Try now",
+			"subtitleImage": {
+				"default": {
+					"1x": "/assets/images/holyheld-alpha@1x.png",
+					"2x": "/assets/images/holyheld-alpha@2x.png"
+				},
+				"webp": {
+					"1x": "/assets/images/holyheld-alpha@1x.webp",
+					"2x": "/assets/images/holyheld-alpha@2x.webp"
+				},
+				"alt": ""
+			},
+			"image": {
+				"default": {
+					"1x": "/assets/images/outro@1x.png",
+					"2x": "/assets/images/outro@2x.png"
+				},
+				"webp": {
+					"1x": "/assets/images/outro@1x.webp",
+					"2x": "/assets/images/outro@2x.webp"
+				},
+				"alt": ""
+			},
+			"description": "Easiest way to trade, store, send, and earn interest on your crypto in a simple wallet with a debit card."
+		}
+	}
+}

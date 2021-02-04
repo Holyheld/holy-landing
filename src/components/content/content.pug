@@ -1,0 +1,27 @@
+mixin content({ content })
+	.content
+		each item in content
+			- if (item.type === 'title')
+				h2.h3!=item.data
+
+			- if (item.type === 'text')
+				p!=item.data
+
+			- if (item.type === 'list')
+				ul
+					each listItem in item.data
+						li!=listItem
+
+			- if (item.type === 'image')
+				picture
+					source(
+						type='image/webp'
+						srcset=`${item.data.webp['1x']}, ${item.data.webp['2x']} 2x`
+					)
+					img(
+						src=item.data.default['1x']
+						srcset=`${item.data.default['1x']}, ${item.data.default['2x']} 2x`
+						alt=item.data.alt
+					)
+				- if (item.data.description)
+					i!=item.data.description

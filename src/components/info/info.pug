@@ -1,0 +1,5 @@
+mixin info({ title, content })
+	section.info.page
+		.info__content
+			h1.h2.info__title=title
+			+content({ content })

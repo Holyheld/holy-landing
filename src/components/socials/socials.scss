@@ -1,0 +1,46 @@
+.socials {
+	&__list {
+		display: flex;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	&__item {
+		margin: 0 24px 0 0;
+
+		@include media-breakpoint-down(xxs) {
+			margin: 0 16px 0 0;
+		}
+
+		&:last-child {
+			margin: 0;
+		}
+	}
+
+	&__link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		height: 40px;
+		background: rgba($color-gray, 0.5);
+		border-radius: 50%;
+		transition: background 0.2s ease;
+
+		&:hover {
+			background: $color-gray;
+
+			@media (hover: none) {
+				background: rgba($color-gray, 0.5);
+			}
+		}
+	}
+
+	&__icon {
+		width: 20px;
+		height: 20px;
+		fill: $color-black;
+	}
+}

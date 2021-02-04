@@ -1,0 +1,117 @@
+{
+	"head": {
+		"title": "FAQ: Traveling abroad - Holyheld",
+		"description": "Answers to frequently asked questions. Instructions and manuals for working with Holyheld products."
+	},
+	"body": {
+		"order": 8,
+		"title": "Traveling abroad",
+		"description": "Thinking of going somewhere? We got your back!",
+		"image": {
+			"default": {
+				"1x": "/assets/images/planes-faq@1x.png",
+				"2x": "/assets/images/planes-faq@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/planes-faq@1x.webp",
+				"2x": "/assets/images/planes-faq@2x.webp"
+			},
+			"alt": ""
+		},
+		"smImage": {
+			"default": {
+				"1x": "/assets/images/planes-faq-sm@1x.png",
+				"2x": "/assets/images/planes-faq-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/planes-faq-sm@1x.webp",
+				"2x": "/assets/images/planes-faq-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewImage": {
+			"default": {
+				"1x": "/assets/images/planes-faq-preview@1x.png",
+				"2x": "/assets/images/planes-faq-preview@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/planes-faq-preview@1x.webp",
+				"2x": "/assets/images/planes-faq-preview@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewSmImage": {
+			"default": {
+				"1x": "/assets/images/planes-faq-preview-sm@1x.png",
+				"2x": "/assets/images/planes-faq-preview-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/planes-faq-preview-sm@1x.webp",
+				"2x": "/assets/images/planes-faq-preview-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"content": [
+			{
+				"type": "title",
+				"data": "Do I need to tell support if I’m about to travel?"
+			},
+			{
+				"type": "text",
+				"data": "You don't need to tell us if you're going away. We won’t block your card if we see you using it in a different country. Instead, we'll tell you the local exchange rate when you arrive, and send you a spending summary of your trip when you get home."
+			},
+			{
+				"type": "title",
+				"data": "Do you charge any fees for paying by card?"
+			},
+			{
+				"type": "text",
+				"data": "We don't charge any fees for paying by card. We also don’t mark up the exchange rate, so you’re always getting the best possible deal. Some card machines ask if you want to pay in pounds instead, so make sure you pick the local currency for the best exchange rate."
+			},
+			{
+				"type": "title",
+				"data": "Where is Holyheld card supported?"
+			},
+			{
+				"type": "text",
+				"data": "Your card should work anywhere Mastercard is accepted."
+			},
+			{
+				"type": "text",
+				"data": "Unfortunately, some merchants don't keep their systems up to date, so we occasionally see situations where our cards aren’t recognized. We have a team dedicated to resolving issues like this, so please let us know if you have an issue."
+			},
+			{
+				"type": "text",
+				"data": "We find some occasional issues in countries like Portugal and Bulgaria. If you have any questions, you can always chat with our friendly support."
+			},
+			{
+				"type": "title",
+				"data": "How can I convert my balance into another currency?"
+			},
+			{
+				"type": "text",
+				"data": "You can only have British pounds (GBP) in your Holyheld account, so you can’t convert your balance into another currency."
+			},
+			{
+				"type": "text",
+				"data": "But you can use your card abroad to make payments in any foreign currency. When you do, we use the Mastercard ‘wholesale’ rate without any mark-up on the exchange rate. So you’re always getting the best rate possible."
+			},
+			{
+				"type": "text",
+				"data": "You can check the current exchange rate on the <a class=\"link\" href=\"https://www.mastercard.co.uk/en-gb/consumers/get-support/convert-currency.html\" target=\"_blank\" rel=\"noreferrer noopener\">Mastercard website</a>."
+			},
+			{
+				"type": "title",
+				"data": "I was charged extra fees for withdrawing abroad"
+			},
+			{
+				"type": "text",
+				"data": "If you were charged an extra fee for withdrawing money abroad, it's probably, because you selected sterling (GBP) instead of the local currency when given the option by the ATM. It means that the merchant's bank will apply their exchange rate, likely with extra fees."
+			},
+			{
+				"type": "text",
+				"data": "If given the option, always choose to pay in the local currency. That way we'll be able to guarantee you a better exchange rate."
+			}	
+		]
+	}
+}

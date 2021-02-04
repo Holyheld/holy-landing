@@ -1,0 +1,55 @@
+.footer {
+	display: flex;
+	margin: 0 -20px;
+	padding: 80px 0;
+
+	@include media-breakpoint-down(lg) {
+		margin: 0 -10px;
+	}
+
+	@include media-breakpoint-down(md) {
+		flex-wrap: wrap;
+		margin: 0 -20px;
+		padding: 60px 0 80px;
+	}
+
+	@include media-breakpoint-down(sm) {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		margin: 0;
+	}
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+		width: 33.333333%;
+		padding: 0 20px;
+
+		@include media-breakpoint-down(lg) {
+			padding: 0 10px;
+		}
+
+		@include media-breakpoint-down(md) {
+			width: 50%;
+			margin: 0 0 40px;
+			padding: 0 20px;
+		}
+
+		@include media-breakpoint-down(sm) {
+			display: block;
+			width: auto;
+			padding: 0;
+		}
+
+		&:nth-child(2) {
+			@include media-breakpoint-down(md) {
+				order: 1;
+				margin: 0;
+			}
+		}
+
+		.general-block {
+			flex-grow: 1;
+		}
+	}
+}

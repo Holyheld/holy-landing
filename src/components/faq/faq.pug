@@ -1,0 +1,30 @@
+mixin faq({ title, description, list })
+	section.faq.page
+		h1.h2.faq__title=title
+		p.faq__description=description
+		ul.faq__list
+			each item in list
+				li.faq__item
+					a.faq__item-link(
+						href=item.href
+					)
+						picture.faq__item-picture
+							source(
+								type='image/webp'
+								media="(max-width: 1023px)"
+								srcset=`${item.previewSmImage.webp['1x']}, ${item.previewSmImage.webp['2x']} 2x`
+							)
+							source(
+								media="(max-width: 1023px)"
+								srcset=`${item.previewSmImage.default['1x']}, ${item.previewSmImage.default['2x']} 2x`
+							)
+							source(
+								type='image/webp'
+								srcset=`${item.previewImage.webp['1x']}, ${item.previewImage.webp['2x']} 2x`
+							)
+							img.faq__item-image(
+								src=item.previewImage.default['1x']
+								srcset=`${item.previewImage.default['1x']}, ${item.previewImage.default['2x']} 2x`
+								alt=item.previewImage.alt
+							)
+						h2.h3.faq__item-title=item.title

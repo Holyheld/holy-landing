@@ -1,0 +1,245 @@
+{
+	"head": {
+		"title": "FAQ: Crypto assets - Holyheld",
+		"description": "Answers to frequently asked questions. Instructions and manuals for working with Holyheld products."
+	},
+	"body": {
+		"order": 7,
+		"title": "Crypto assets",
+		"description": "What is ETH? How to get HLH? Trade commissions? Get all answers here.",
+		"image": {
+			"default": {
+				"1x": "/assets/images/coins-faq@1x.png",
+				"2x": "/assets/images/coins-faq@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/coins-faq@1x.webp",
+				"2x": "/assets/images/coins-faq@2x.webp"
+			},
+			"alt": ""
+		},
+		"smImage": {
+			"default": {
+				"1x": "/assets/images/coins-faq-sm@1x.png",
+				"2x": "/assets/images/coins-faq-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/coins-faq-sm@1x.webp",
+				"2x": "/assets/images/coins-faq-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewImage": {
+			"default": {
+				"1x": "/assets/images/coins-faq-preview@1x.png",
+				"2x": "/assets/images/coins-faq-preview@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/coins-faq-preview@1x.webp",
+				"2x": "/assets/images/coins-faq-preview@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewSmImage": {
+			"default": {
+				"1x": "/assets/images/coins-faq-preview-sm@1x.png",
+				"2x": "/assets/images/coins-faq-preview-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/coins-faq-preview-sm@1x.webp",
+				"2x": "/assets/images/coins-faq-preview-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"content": [
+			{
+				"type": "title",
+				"data": "Which cryptocurrencies are supported?"
+			},
+			{
+				"type": "text",
+				"data": "You can buy/sell Bitcoin (BTC), Bitcoin Cash (BCH), Litecoin (LTC), Ripple (XRP) Stellar (XLM), Ethereum (ETH) and all 2000+ crypto assets that run on Ethereum."
+			},
+			{
+				"type": "text",
+				"data": "Bitcoin (BTC) is a digital currency used for fast, secure, and low-cost payments without the need for a central issuer or processor. It was the first decentralised currency, introduced in 2009."
+			},
+			{
+				"type": "text",
+				"data": "Bitcoin Cash (BCH) is the result of BTC going through a hard fork following some debate from the BTC community and its miners over scalability and transaction speed issues. BCH is totally independent of BTC and has larger block sizes, meaning more transactions can be processed in less time."
+			},
+			{
+				"type": "text",
+				"data": "Litecoin (LTC) is an alternative cryptocurrency similar to BCH; it is an open source, peer-to-peer, and fully decentralised global payment network. LTC exists as a software ‘blockchain’ where participating nodes process the transaction and miners provide security and verification for every transaction."
+			},
+			{
+				"type": "text",
+				"data": "Ripple (XRP) is an open source technology, built for enterprise, on the principles of blockchain. The main purpose of Ripple is to move assets around the world almost instantly, whilst maintaining centralised control."
+			},
+			{
+				"type": "text",
+				"data": "Stellar (XLM) is an open-source network for currencies and payments. Stellar makes it possible to create, send and trade digital representations of all forms of money – dollars, pesos, bitcoin, pretty much anything. It’s designed so all the world’s financial systems can work together on a single network."
+			},
+			{
+				"type": "text",
+				"data": "Ethereum (ETH) is a software platform, that’s not controlled by any central authority. Its primary purpose is to facilitate ‘smart contracts’ without any possibility of downtime, fraud, or third-party interference."
+			},
+			{
+				"type": "title",
+				"data": "What is HLH and how do I get it?"
+			},
+			{
+				"type": "text",
+				"data": "HLH is a special Holyheld token. It is rewared to Holyheld users. The more you deposit, and the longer you generate interest on your account the more HLH token you can get. And there are many ways to spend your HLH tokens. But first, how can you get HLH tokens other than using Holyheld? It’s simple, you can always buy HLH on the secondary market, or in the app."
+			},
+			{
+				"type": "title",
+				"data": "What is HLH used for?"
+			},
+			{
+				"type": "text",
+				"data": "HLH is a utility token. It means that you can use you HLH tokens to purchase unique and limited merchandise in the app. You can also use your HLH tokens to access special promotions that will be available only to the token holders. Of course, you can always sell your HLH tokens on the secondary market."
+			},
+			{
+				"type": "title",
+				"data": "How much does it cost to buy or sell cryptocurrency?"
+			},
+			{
+				"type": "text",
+				"data": "We provide you with the opportunity to gain exposure to cryptocurrencies at the best available rate. The exchange rate disclosed for your transaction is generated based on market factors and includes a markup on the transaction amount."
+			},
+			{
+				"type": "title",
+				"data": "How do I buy and sell cryptocurrency?"
+			},
+			{
+				"type": "text",
+				"data": "You can use any supported fiat or cryptocurrency to buy cryptocurrency, or exchange it back for a fiat currency. It can be done via the Exchange section within the Revolut app. Buying and selling cryptocurrency works the same way as any other fiat currency that we support."
+			},
+			{
+				"type": "text",
+				"data": "To add your cryptocurrency account, go to the 'Accounts' section, tap on 'Add account', and simply select any of the two cryptocurrency accounts that you would like to buy."
+			},
+			{
+				"type": "title",
+				"data": "Does the conversion from and to cryptocurrencies happen instantly?"
+			},
+			{
+				"type": "text",
+				"data": "You can convert your cryptocurrency to and from fiat currency in just a few seconds. The transaction will first go into a pending state within the app, and then we will attempt to fulfil the exchange. Once confirmed within our platform, the price will be locked in and your transaction will be complete."
+			},
+			{
+				"type": "title",
+				"data": "Sending cryptocurrency"
+			},
+			{
+				"type": "text",
+				"data": "To send cryptocurrency to a friend tap on the 'Payments' section in the app, select from your contact list any friend that is a Holyheld user, then 'Send'. Alternatively, you can send your cryptocurrency to a dedicated address, just make sure it supports the crypto you are trying to send. Next, select cryptocurrency from the drop down list, enter in the amount you would like to send and then tap ‘Send’."
+			},
+			{
+				"type": "title",
+				"data": "Can I set target prices for exchanging cryptocurrency automatically?"
+			},
+			{
+				"type": "text",
+				"data": "You can instruct an auto-exchange by setting a target price for buying or selling cryptocurrency. This automatically fulfills your order when the target price is hit. You can set up Auto-Exchange by clicking the Auto symbol in the top-right corner of the Exchange screen."
+			},
+			{
+				"type": "title",
+				"data": "Can I be notified of price volatility?"
+			},
+			{
+				"type": "text",
+				"data": "You can receive automated price volatility alerts and be notified whenever the price of cryptocurrencies moves more than 5%. You can turn this alert on by going to your settings in 'Profile' and inside the 'Privacy' section enable 'Crypto volatility alerts'"
+			},
+			{
+				"type": "title",
+				"data": "Which exchanges do you use?"
+			},
+			{
+				"type": "text",
+				"data": "We work with various established, secure, and trusted partners to provide you with the best possible service."
+			},
+			{
+				"type": "title",
+				"data": "How do you calculate the cryptocurrency rates?"
+			},
+			{
+				"type": "text",
+				"data": "We stream the prices from the exchanges we’ve partnered with and calculate a Volume Weighted Average Price (VWAP). Our derived rate takes into account other factors, such as market depth and volatility. We then apply a mark-up on our derived rate, which is the rate you receive in the app. The price you pay is locked in at the time of the exchange settlement."
+			},
+			{
+				"type": "title",
+				"data": "Are my cryptocurrencies secure?"
+			},
+			{
+				"type": "text",
+				"data": "To store the cryptocurrencies held on users' behalf, we use some of the most secure methods, such as multi-signature wallets and cold storage. Your crypto is very safe."
+			},
+			{
+				"type": "title",
+				"data": "What is a fiat currency?"
+			},
+			{
+				"type": "text",
+				"data": "A currency issued and declared as legal tender by a central bank or public authority is considered fiat currency, such as British Pounds and Euros. Fiat money allows a central bank or public authority to employ virtually any material, such as paper (which is lightweight and convenient for carrying), as a medium of exchange."
+			},
+			{
+				"type": "text",
+				"data": "Cryptocurrency is not tied to any fiat currency. It is not issued or backed by any government and is not associated with any underlying value."
+			},
+			{
+				"type": "title",
+				"data": "What is blockchain?"
+			},
+			{
+				"type": "text",
+				"data": "A blockchain is an authoritative record of every Bitcoin transaction that has ever occurred. Think of it as a type of ledger that maintains a real-time digital record of ownership. The distributed ledger is a decentralised database that grows in 'blocks', with the most recent 'block' containing the latest set of recorded transactions."
+			},
+			{
+				"type": "text",
+				"data": "The blockchain allows all market participants to transparently and securely keep track of digital currency transactions without the need for a centralised ledger."
+			},
+			{
+				"type": "title",
+				"data": "What are private keys and where are mine?"
+			},
+			{
+				"type": "text",
+				"data": "A private key is a randomly generated string of letters and numbers that is 'tied' to a specific cryptocurrency wallet address, and can be used to allow a user to access cryptocurrencies. Revolut securely holds the cryptocurrency in a pooled cryptocurrency wallet."
+			},
+			{
+				"type": "title",
+				"data": "Are cryptocurrencies regulated?"
+			},
+			{
+				"type": "text",
+				"data": "Cryptocurrency is not a regulated product in the UK. Funds received by us in relation to cryptocurrency transactions will not be safeguarded (unlike fiat currency transactions, pursuant to our obligations under the UK Electronic Money Regulations 2011). Any cryptocurrency we hold for you is not covered by the Financial Services Compensation Scheme."
+			},
+			{
+				"type": "title",
+				"data": "Are there any limits on exchanges?"
+			},
+			{
+				"type": "text",
+				"data": "You are eligible for up to a maximum of 15,000 GBP per single cryptocurrency exchange and 30 exchanges per day."
+			},
+			{
+				"type": "title",
+				"data": "Do I have an individual cryptocurrency wallet?"
+			},
+			{
+				"type": "text",
+				"data": "We aren't issuing individual wallets at the moment. Once purchased, your cryptocurrencies are securely stored in a 'pooled' virtual currency account, which combines both 'hot' and 'cold' wallets. This is a repository of virtual currency private keys. We maintain our own internal ledger, which records your exposure that is reflected in the cryptocurrency account in the app."
+			},
+			{
+				"type": "title",
+				"data": "Can I view my cryptocurrency exposure on the blockchain?"
+			},
+			{
+				"type": "text",
+				"data": "No. Your cryptocurrency exposure is stored on our internal ledger (which is a record of all debits, and credits that occur within our platform) and is used to attribute funds to your account. You can manage your balances in fiat and cryptocurrency in the app at any time."
+			}
+		]
+	}
+}

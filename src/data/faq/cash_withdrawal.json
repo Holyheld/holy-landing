@@ -1,0 +1,113 @@
+{
+	"head": {
+		"title": "FAQ: Cash withdrawal - Holyheld",
+		"description": "Answers to frequently asked questions. Instructions and manuals for working with Holyheld products."
+	},
+	"body": {
+		"order": 5,
+		"title": "Cash withdrawal",
+		"description": "If you need to withdraw cash from your account.",
+		"image": {
+			"default": {
+				"1x": "/assets/images/pistol-faq@1x.png",
+				"2x": "/assets/images/pistol-faq@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/pistol-faq@1x.webp",
+				"2x": "/assets/images/pistol-faq@2x.webp"
+			},
+			"alt": ""
+		},
+		"smImage": {
+			"default": {
+				"1x": "/assets/images/pistol-faq-sm@1x.png",
+				"2x": "/assets/images/pistol-faq-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/pistol-faq-sm@1x.webp",
+				"2x": "/assets/images/pistol-faq-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewImage": {
+			"default": {
+				"1x": "/assets/images/pistol-faq-preview@1x.png",
+				"2x": "/assets/images/pistol-faq-preview@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/pistol-faq-preview@1x.webp",
+				"2x": "/assets/images/pistol-faq-preview@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewSmImage": {
+			"default": {
+				"1x": "/assets/images/pistol-faq-preview-sm@1x.png",
+				"2x": "/assets/images/pistol-faq-preview-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/pistol-faq-preview-sm@1x.webp",
+				"2x": "/assets/images/pistol-faq-preview-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"content": [
+			{
+				"type": "title",
+				"data": "Where and how much can you withdraw?"
+			},
+			{
+				"type": "text",
+				"data": "You can withdraw cash from any cash machine in your home country or overseas that supports Visa or Mastercard, but please look out for any fees that are applied by some ATM operators. Neither we nor a third-party bank will take any commission."
+			},
+			{
+				"type": "title",
+				"data": "How do I withdraw cash?"
+			},
+			{
+				"type": "text",
+				"data": "Sometimes when you use an ATM, you will be asked to choose between a 'credit', 'checking' or 'savings' account. You should always choose either a 'checking' or 'savings' account."
+			},
+			{
+				"type": "text",
+				"data": "If the ATM asks whether you would like to complete the transaction 'with conversion' or 'without conversion', you should always choose 'without conversion'. As a rule of thumb, you should always opt to be charged in the local currency of the country you’re in! If you’re in Thailand choose Thai Baht, in Spain, Euros or in the United States, US Dollars. If you choose 'with conversion', the ATM provider can apply their own exchange rate, which is not the interbank rate."
+			},
+			{
+				"type": "text",
+				"data": "Please be aware that in some cases when you withdraw funds from a Travelex ATM, Travelex will convert your money using their own exchange rate (even if you opt to be charged in the local currency). This is unlikely to be the interbank rate, so we would advise waiting until you find another ATM to withdraw money if possible so you benefit from our exchange rates."
+			},
+			{
+				"type": "title",
+				"data": "Why was my cash withdrawal declined?"
+			},
+			{
+				"type": "text",
+				"data": "Some of the most common reasons for this can be that you have insufficient funds, have entered the wrong card PIN, exceeded your set monthly spending limit, or accidentally frozen your card."
+			},
+			{
+				"type": "text",
+				"data": "Please check the 'Cards' section of the app to view PIN, unblock it when 3 incorrect PIN attempts have been made, and make sure your card has not been frozen, expired, or reported lost or stolen. Your lost or stolen card if found can be linked back to your Holyheld account in the app."
+			},
+			{
+				"type": "title",
+				"data": "Why has my cash withdrawal been reverted?"
+			},
+			{
+				"type": "text",
+				"data": "If the ATM service provider has yet to accept your payment and 7 or more days have passed, the funds may be reverted back to your account. Alternatively an ATM service provider can cancel a withdrawal at the cashpoint, due to security issues."
+			},
+			{
+				"type": "title",
+				"data": "Why have I been charged for cash withdrawal?"
+			},
+			{
+				"type": "text",
+				"data": "Our customers can withdraw up to £200 over a 30 day period at no extra cost, but we apply a small fee of 2% thereafter to cover our costs. To be completely open and transparent, ATM withdrawals are incredibly expensive for us as a business, so we’ve placed a limit on this. You can check your remaining allowance any time under your current price plan in the 'Profile' section."
+			},
+			{
+				"type": "text",
+				"data": "ATM operators can also charge a fee on each withdrawal you make, so please double-check if there are any fees before taking out cash at any ATM."
+			}
+		]
+	}
+}

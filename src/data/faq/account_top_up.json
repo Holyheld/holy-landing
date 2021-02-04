@@ -1,0 +1,97 @@
+{
+	"head": {
+		"title": "FAQ: Account top up - Holyheld",
+		"description": "Answers to frequently asked questions. Instructions and manuals for working with Holyheld products."
+	},
+	"body": {
+		"order": 4,
+		"title": "Account top up",
+		"description": "How to add monies to your Holyheld account.",
+		"image": {
+			"default": {
+				"1x": "/assets/images/cube-faq@1x.png",
+				"2x": "/assets/images/cube-faq@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/cube-faq@1x.webp",
+				"2x": "/assets/images/cube-faq@2x.webp"
+			},
+			"alt": ""
+		},
+		"smImage": {
+			"default": {
+				"1x": "/assets/images/cube-faq-sm@1x.png",
+				"2x": "/assets/images/cube-faq-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/cube-faq-sm@1x.webp",
+				"2x": "/assets/images/cube-faq-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewImage": {
+			"default": {
+				"1x": "/assets/images/cube-faq-preview@1x.png",
+				"2x": "/assets/images/cube-faq-preview@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/cube-faq-preview@1x.webp",
+				"2x": "/assets/images/cube-faq-preview@2x.webp"
+			},
+			"alt": ""
+		},
+		"previewSmImage": {
+			"default": {
+				"1x": "/assets/images/cube-faq-preview-sm@1x.png",
+				"2x": "/assets/images/cube-faq-preview-sm@2x.png"
+			},
+			"webp": {
+				"1x": "/assets/images/cube-faq-preview-sm@1x.webp",
+				"2x": "/assets/images/cube-faq-preview-sm@2x.webp"
+			},
+			"alt": ""
+		},
+		"content": [
+			{
+				"type": "title",
+				"data": "Make a bank transfer from another account"
+			},
+			{
+				"type": "text",
+				"data": "To add money from another bank account Swipe right →  Add money → UK Bank Transfer.  Make a note of your account number and sort code, then set up your Holyheld account as a payee with your other bank. Bank transfers should arrive in your account instantly, but can sometimes take longer."
+			},
+			{
+				"type": "title",
+				"data": "Make a transfer from another card"
+			},
+			{
+				"type": "text",
+				"data": "To add money from another debit/credit card Swipe right →  Add money → Card payment.  Enter your card details and the amount you want to transfer. The payment should arrive in your account instantly."
+			},
+			{
+				"type": "title",
+				"data": "Deposit via Apple Pay"
+			},
+			{
+				"type": "text",
+				"data": "To add monies to your account via Apple pay Swipe right →  Add money → Apple Pay. If you have a credit/debit card linked to Apple Pay your payment should be processed instantly."
+			},
+			{
+				"type": "title",
+				"data": "Google Pay deposit"
+			},
+			{
+				"type": "text",
+				"data": "To add monies to your account via Google pay Swipe right →  Add money → Google Pay. If you have a credit/debit card linked to Apple Pay your payment should be processed instantly."
+			},
+			{
+				"type": "title",
+				"data": "Top up via crypto"
+			},
+			{
+				"type": "text",
+				"data": "You can also top up your account in crypto: Swipe right →  Add money → Crypto.  Pick a cryptocurrency you want to make a transfer with, and you’ll get your account address. Use this address to make a payment from another wallet."
+			}		
+		]
+	}
+}

@@ -1,0 +1,15 @@
+mixin markets({ items })
+	.markets
+		ul.markets__list
+			each item in items
+				li.markets__item
+					a.markets__link(
+						href=item.href
+						target=item.target
+						rel=item.rel
+						title=item.name
+					)
+						img.markets__image(
+							src=item.image
+							alt=item.name
+						)

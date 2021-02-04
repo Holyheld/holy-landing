@@ -1,0 +1,52 @@
+.link {
+	margin: 0;
+	padding: 0;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	font-family: inherit;
+	text-align: left;
+	color: $color-blue;
+	background: none;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+	text-decoration: none;
+	transition: color 0.2s ease;
+
+	&:hover {
+		color: $color-blue-darker;
+
+		@media (hover: none) {
+			color: $color-blue;
+		}
+	}
+
+	&_white {
+		color: $color-white;
+		text-decoration: none;
+		transition: color 0.2s ease;
+
+		&:hover {
+			color: $color-white;
+
+			@media (hover: none) {
+				color: $color-white;
+			}
+		}
+	}
+
+	&_white-light {
+		color: $color-white-light;
+		text-decoration: none;
+		transition: color 0.2s ease;
+
+		&:hover {
+			color: $color-white;
+
+			@media (hover: none) {
+				color: $color-white-light;
+			}
+		}
+	}
+}

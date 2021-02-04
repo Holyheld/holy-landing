@@ -1,0 +1,10 @@
+mixin chat({ messages })
+	.chat.js-chat
+		ul.chat__list
+			each message in messages
+				li.chat__item.js-chat-item(class=`${message.from ? 'chat__item_from' : ''}` style="opacity: 0;")
+					- if (message.from)
+						.chat__sender=message.from
+					.chat__message
+						div.chat__text=message.text
+						time.chat__time=message.time

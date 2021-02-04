@@ -1,0 +1,120 @@
+.chat {
+	line-height: $line-height-md;
+
+	&__list {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	&__item {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		margin: 0 0 16px;
+		padding: 0 0 0 60px;
+		opacity: 0;
+		transition: opacity 0.5s ease, transform 0s 0.5s ease;
+
+		@include media-breakpoint-down(md) {
+			margin: 0 0 12px;
+			padding: 0 0 0 40px;
+		}
+
+		@include media-breakpoint-down(xxs) {
+			padding: 0 0 0 8px;
+		}
+
+		&.is-visible {
+			opacity: 1 !important;
+			animation: bounce 1s linear;
+		}
+
+		&:last-child {
+			margin: 0;
+		}
+
+		&_from {
+			justify-content: flex-start;
+			padding: 0 16px 0 38px;
+
+			@include media-breakpoint-down(xs) {
+				padding: 0 12px 0 38px;
+			}
+
+			@include media-breakpoint-down(xxs) {
+				padding: 0 8px 0 26px;
+			}
+
+			&::before {
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				background-image: url('/assets/images/chat@3x.png');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 100%;
+
+				@include media-breakpoint-down(xxs) {
+					width: 20px;
+					height: 20px;
+				}
+			}
+		}
+	}
+
+	&__sender {
+		width: 100%;
+		margin: 0 0 6px;
+		font-size: $font-size-xs;
+		color: $color-white;
+
+		@include media-breakpoint-down(xxs) {
+			margin: 0 0 4px;
+		}
+	}
+
+	&__message {
+		position: relative;
+		max-width: 100%;
+		padding: 12px 12px 14px;
+		border-radius: 12px;
+		background: $color-gray-dark;
+		color: $color-white;
+
+		@include media-breakpoint-down(xxs) {
+			font-size: $font-size-xxs;
+		}
+
+		.chat__item_from & {
+			background: $color-white;
+			color: $color-gray-dark;
+		}
+	}
+
+	&__time {
+		position: absolute;
+		right: 12px;
+		bottom: 4px;
+		font-size: $font-size-xxxs;
+	}
+}
+
+@keyframes bounce {
+	0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1); }
+  5.81% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 25.828, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 25.828, 0, 1); }
+  11.61% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 5.996, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 5.996, 0, 1); }
+  17.42% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -4.492, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -4.492, 0, 1); }
+  23.12% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -7.123, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -7.123, 0, 1); }
+  30.33% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -4.894, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -4.894, 0, 1); }
+  37.44% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.631, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.631, 0, 1); }
+  44.54% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.312, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.312, 0, 1); }
+  51.65% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.812, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.812, 0, 1); }
+  80.28% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.093, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.093, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}

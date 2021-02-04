@@ -1,0 +1,12 @@
+mixin notifications({ notifications })
+	.notifications.js-notifications
+		i.notifications__shadow
+		i.notifications__shadow
+		ul.notifications__list.js-notifications-list
+			each notification in notifications
+				li.notifications__item.js-notifications-item
+					.notifications__header
+						span.notifications__from=notification.from
+						time.notifications__time=notification.time
+					span.notifications__title=notification.title
+					p.notifications__text=notification.text

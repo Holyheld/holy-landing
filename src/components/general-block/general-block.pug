@@ -1,0 +1,24 @@
+mixin general-block({ contacts, info, socials })
+	.general-block
+
+		- if (contacts)
+			h2.h4.general-block__title=contacts.title
+			+link({
+				className: 'general-block__link',
+				text: contacts.email,
+				href: 'mailto:' + contacts.email,
+				mod: 'white',
+			})
+
+		- if (info)
+			h2.h4.general-block__title=info.title
+			.general-block__text
+				each item in info.text
+					p=item
+
+		- if (socials)
+			h2.h4.general-block__title=socials.title
+			.general-block__socials
+				+socials({
+					list: socials.list
+				})

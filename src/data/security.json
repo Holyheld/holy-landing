@@ -1,0 +1,83 @@
+{
+	"head": {
+		"title": "Feeling safe - Holyheld",
+		"description": "Security: What do we do to ensure the safest possible neobanking experience at Holyheld."
+	},
+	"body": {
+		"title": "Security",
+		"content": [
+			{
+				"type": "text",
+				"data": "Here in Holyheld, we are security freaks. We believe that security should be effective, but it should also be easy to explain. So let us tell you how we care about the security of your money and assets and also explain why this is extremely important."
+			},
+			{
+				"type": "title",
+				"data": "The security that you understand"
+			},
+			{
+				"type": "text",
+				"data": "We can’t explain why, but right now, in the banking sector, there are two main ways to ensure the security of your money."
+			},
+			{
+				"type": "text",
+				"data": "The first way is when you trust the security of the service. Your banks, as well as most crypto exchanges, use this method. This is, of course, can be convenient in terms of user experience. At the same time you have to be aware about the risk. We constantly hear about data breaches and hacks. Moreover, it often happens that such services can easily restrict your access to their services simply because they can."
+			},
+			{
+				"type": "text",
+				"data": "The second way is also not much better. Services shift all responsibility to you. This method is called the non-custodial. This is a more reliable way, because to whom to entrust the security of money as not to yourself. But if you lose these complex and long passwords that are called seed phrases, then you will forever lose access to your money. According to recent data, access to more than 1 million bitcoins has been lost forever. These are early followers who forgot, lost or were unable to find passwords for their wallets. It makes us sad!"
+			},
+			{
+				"type": "title",
+				"data": "The third way"
+			},
+			{
+				"type": "text",
+				"data": "But there is always a third way. We decided to do just that: take the best of both approaches and remove all the flaws. It sounds tempting, but what does it mean? Our method is called keyless security. Instead of storing one large key, we use complex cryptography to divide it into two parts. One part is stored on your phone, and the second on Holyheld servers. Thus, half the password is meaningless, and even if someone gets control of your phone, they will not be able to use only half the password. Thus, we maintain a high level of security while maintaining the comfort of use."
+			},
+			{
+				"type": "title",
+				"data": "Only you have access to your funds"
+			},
+			{
+				"type": "text",
+				"data": "Yes, that's exactly it. Unlike most services, Holyheld is assigned access to your funds only when needed. This means that we do not and cannot have access to your money whenever we want. There is only one way to make a transaction — you must initiate it through our convenient application. Next, the magic of mathematics and cryptography will connect the two parts of the password and sign the transaction without the need for revealing their secrets to each other. It is a safe and secure way to manage crypto transactions."
+			},
+			{
+				"type": "title",
+				"data": "Easy wallet restoration"
+			},
+			{
+				"type": "text",
+				"data": "The majority of non-custodial services also imply the inability to regain access to your funds if you accidentally uninstall the application, or lose your phone, or decide to buy a new one. In all these cases, recovering your password will be very difficult. Holyheld uses the feature of a trusted recovery process, which can help restore your access. You can choose whom you trust, and you can also always change these same trusted people. It is important to note that a trusted person cannot make transactions for you, they can only help restore access. So now, you can finally freely lose your phone and still be able to access your wallet afterward. But we don’t recommend you do that it could be a very costly test."
+			},
+			{
+				"type": "title",
+				"data": "Passwordless authentication"
+			},
+			{
+				"type": "text",
+				"data": "We already have dozens, if not hundreds, of different accounts and passwords for them. But this is all a stone age. Holyheld has no passwords, and there is no need to remember anything. You can use the built-in security on your phone like TouchID, FaceID, with our magic link feature — this is a one-time password that we will send to you by email or SMS. Thus, you never have to remember complex passwords to quickly access your funds. Security can be convenient."
+			},
+			{
+				"type": "title",
+				"data": "Where is the code?"
+			},
+			{
+				"type": "text",
+				"data": "Good question. Our token contracts are currently available on our <a class=\"link\" href=\"https://github.com/holyheld\" target=\"_blank\" rel=\"noreferrer noopener\">GitHub page</a>. We have done everything in our hands to make sure that the contracts are safe to use however, we haven’t undergone a security audit from a 3rd party. Thus, there is still some risk involved."
+			},
+			{
+				"type": "title",
+				"data": "What else?"
+			},
+			{
+				"type": "text",
+				"data": "Good question! Nobody asked us, but we decided to tell you anyway. We believe that any technological product needs to be constantly improved. Therefore, we believe in open source. We believe Holyheld can always be better, and we are always working to improve your safety. Open source allows the best developers and hackers from around the world to participate in the development of the best financial services for our digital generation."
+			},
+			{
+				"type": "text",
+				"data": "We will also frequently conduct an external independent audit of our code, which allows us all to sleep peacefully. Just as we keep working on the security of the Holyheld app, we will add to and update this material and will continue to update you about new security features."
+			}
+		]
+	}
+}

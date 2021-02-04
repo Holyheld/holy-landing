@@ -1,0 +1,73 @@
+mixin card({ bg, front, back })
+	article.card.js-card
+		.card__shield.js-card-shield
+		.card__wrapper
+			.card__inner
+				.card__front.js-card-front(style=`${bg ? `background-image: url(${bg})` : ''}`)
+					each item in front
+						- if (item.type === 'title' || item.type === 'gradient-title')
+							h2.h1.card__title(
+								class=`${item.type === 'gradient-title' ? 'card__title_gradient' : ''}`
+							)!=item.data
+
+						- if (item.type === 'text')
+							p.card__text!=item.data
+
+						- if (item.type === 'image' || item.type === 'bottom-image')
+							picture.card__picture(
+								class=`${item.type === 'bottom-image' ? 'card__picture_bottom' : ''}`
+							)
+								source(
+									type='image/webp'
+									media="(max-width: 1023px)"
+									srcset=`${item.smData.webp['1x']}, ${item.smData.webp['2x']} 2x`
+								)
+								source(
+									media="(max-width: 1023px)"
+									srcset=`${item.smData.default['1x']}, ${item.smData.default['2x']} 2x`
+								)
+								source(
+									type='image/webp'
+									srcset=`${item.data.webp['1x']}, ${item.data.webp['2x']} 2x`
+								)
+								img.card__image(
+									src=item.data.default['1x']
+									srcset=`${item.data.default['1x']}, ${item.data.default['2x']} 2x`
+									alt=item.data.alt
+								)
+
+						- if (item.type === 'notifications')
+							+notifications({ notifications: item.data })
+
+						- if (item.type === 'bars')
+							+bars()
+
+						- if (item.type === 'chat')
+							+chat({ messages: item.data })
+
+					+icon-button({
+						className: 'card__front-button js-card-open-button',
+						icon: 'icon-dots',
+						title: 'Open',
+						reverse: true,
+					})
+
+				.card__back.js-card-back
+					+icon-button({
+						className: 'card__back-button js-card-close-button',
+						icon: 'icon-cross',
+						title: 'Close'
+					})
+					h3.h3.card__subtitle!=back.title
+					p.card__description!=back.text
+					- if (back.link)
+						+button({
+							className: 'card__back-link',
+							dark: true,
+							text: back.link.text,
+							href: back.link.href,
+							target: back.link.target,
+							title: back.link.title,
+							ariaLabel: back.link.ariaLabel,
+							rel: back.link.rel,
+						})

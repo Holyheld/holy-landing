@@ -1,0 +1,23 @@
+{
+	"extends": ["airbnb", "prettier"],
+	"plugins": ["prettier"],
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018
+	},
+	"rules": {
+		"no-plusplus": "off",
+		"no-param-reassign": "off",
+		"import/prefer-default-export": "off",
+		"import/no-extraneous-dependencies": "off",
+		"import/first": "off",
+		"no-new": "off",
+		"func-names": "off",
+		"quotes": [2, "single", "avoid-escape"]
+	}
+}

@@ -1,0 +1,29 @@
+.info {
+	display: flex;
+	justify-content: center;
+	margin-right: -20px;
+	margin-left: -20px;
+
+	@include media-breakpoint-down(sm) {
+		display: block;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	&__content {
+		max-width: 720px;
+		padding: 0 20px;
+
+		@include media-breakpoint-down(sm) {
+			padding: 0;
+		}
+	}
+
+	&__title {
+		margin: 0 0 40px;
+
+		@include media-breakpoint-down(md) {
+			margin: 0 0 16px;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+	head
+		block head
+
+		style(type='text/css').
+			body { background: #080808; color: rgba(255, 255, 255, 0.75); }
+			.link { color: #8aceff; }
+			.link_white { color: #fff; }
+			.link_white-light { color: hsla(0,0%,100%,.75); }
+			.button { background: #fff; }
+			.button_dark { background: #333; }
+			.icon-button  { background: #333; }
+			.icon-button_reverse  { background: #666; }
+			.back-link  { background: #333; }
+	body
+		include ../components/index
+		each sprite in htmlWebpackPlugin.files.sprites
+			!='\n'
+			!=sprite
+		.layout
+			.container
+				block content

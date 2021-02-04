@@ -1,0 +1,6 @@
+mixin cards({ list })
+	section.cards
+		ul.cards__list
+			each card in list
+				li.cards__item(class=`cards__item_${card.size}`)
+					+card(card)

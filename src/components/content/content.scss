@@ -1,0 +1,110 @@
+.content {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6 {
+		margin: 40px 0 16px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	p, i {
+		display: block;
+		margin: 16px 0 24px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	ul {
+		margin: 16px 0 24px;
+		padding: 0;
+		list-style-type: none;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		li {
+			position: relative;
+			margin: 0 0 24px;
+			padding: 0 0 0 28px;
+
+			&:last-child {
+				margin: 0;
+			}
+
+			&::before {
+				content: '•';
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+	}
+
+	b,
+	strong {
+		font-weight: $font-weight-bold;
+		color: $color-white;
+	}
+
+	i {
+		font-style: italic;
+	}
+
+	picture {
+		display: block;
+		width: 100%;
+		max-width: 680px;
+		margin: 40px auto;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		img {
+			display: block;
+			width: auto;
+			max-width: 100%;
+			margin: 0 auto;
+			height: auto;
+		}
+
+		+ i {
+			margin: 0 0 40px;
+			font-size: $font-size-xs;
+
+			@include media-breakpoint-down(md) {
+				margin: -12px 0 40px;
+			}
+		}
+	}
+}
