@@ -21,13 +21,13 @@
 			"text": "iOS App",
 			"target": "_blank",
 			"rel": "noreferrer noopener",
-			"href": "#"
+			"href": "https://testflight.apple.com/join/3eE0fS5t"
 		},
 		{
 			"text": "Android App",
 			"target": "_blank",
 			"rel": "noreferrer noopener",
-			"href": "#"
+			"href": "https://play.google.com/store/apps/details?id=com.holyheld"
 		},
 		{
 			"text": "Staking Portal",
@@ -100,14 +100,14 @@
 	"markets": [
 		{
 			"name": "App Store",
-			"href": "#",
+			"href": "https://testflight.apple.com/join/3eE0fS5t",
 			"target": "_blank",
 			"rel": "noreferrer noopener",
 			"image": "/assets/images/app-store.svg"
 		},
 		{
 			"name": "Google Play",
-			"href": "#",
+			"href": "https://play.google.com/store/apps/details?id=com.holyheld",
 			"target": "_blank",
 			"rel": "noreferrer noopener",
 			"image": "/assets/images/google-play.svg"
